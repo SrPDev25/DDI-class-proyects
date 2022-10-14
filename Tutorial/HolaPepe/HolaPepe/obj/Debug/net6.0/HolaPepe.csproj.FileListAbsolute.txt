@@ -1,0 +1,15 @@
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\bin\Debug\net6.0\HolaPepe.exe
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\bin\Debug\net6.0\HolaPepe.deps.json
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\bin\Debug\net6.0\HolaPepe.runtimeconfig.json
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\bin\Debug\net6.0\HolaPepe.dll
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\bin\Debug\net6.0\HolaPepe.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\obj\Debug\net6.0\HolaPepe.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\obj\Debug\net6.0\HolaPepe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\obj\Debug\net6.0\HolaPepe.AssemblyInfoInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\obj\Debug\net6.0\HolaPepe.AssemblyInfo.cs
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\obj\Debug\net6.0\HolaPepe.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\obj\Debug\net6.0\HolaPepe.dll
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\obj\Debug\net6.0\refint\HolaPepe.dll
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\obj\Debug\net6.0\HolaPepe.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\obj\Debug\net6.0\HolaPepe.genruntimeconfig.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Tutorial\HolaPepe\HolaPepe\obj\Debug\net6.0\ref\HolaPepe.dll

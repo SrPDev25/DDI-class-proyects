@@ -1,0 +1,11 @@
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\bin\Debug\DDI_Ejercicio2_Daniel_Ortega.exe.config
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\bin\Debug\DDI_Ejercicio2_Daniel_Ortega.exe
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\bin\Debug\DDI_Ejercicio2_Daniel_Ortega.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.csproj.SuggestedBindingRedirects.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.formReservas.resources
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.Properties.Resources.resources
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.csproj.GenerateResource.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.exe
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.pdb
