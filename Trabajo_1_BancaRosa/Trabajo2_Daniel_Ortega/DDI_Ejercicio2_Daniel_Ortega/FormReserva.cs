@@ -13,7 +13,7 @@ namespace DDI_Ejercicio2_Daniel_Ortega
 {
     public partial class formReservas : Form
     {
-        List<Usuarios> usuarios;
+        Dictionary<String,String> usuarios;
         
         public formReservas()
         {
@@ -26,21 +26,26 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             panelReserva.Visible = false;
             String credencialProv = Properties.Resources.credenciales.ToString();
             credenciales = credencialProv.Split(new[] {";"}, StringSplitOptions.RemoveEmptyEntries);
-            usuarios = new List<Usuarios>();
+            usuarios = new Dictionary<String,String>();
             int i=0;
             while (i < credenciales.Length)
             {
-                usuarios.Add(new Usuarios(credenciales[i], credenciales[i + 1]));
+                usuarios.Add(credenciales[i], credenciales[i+1]);
                 i += 2;
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Usuarios user = new Usuarios(textBoxUser.Text, textBoxPass.Text);
-            if (usuarios.IndexOf(user)!=-1)
+            String user = textBoxUser.Text;
+            String pass = textBoxPass.Text;
+            String passCheck;
+            if (usuarios.TryGetValue(user, out passCheck))
             {
-                buttonSesion.Visible = false;
+                if (passCheck.Equals(pass))
+                {
+                    buttonSesion.Visible = false;
+                }
             }
             else
             {
