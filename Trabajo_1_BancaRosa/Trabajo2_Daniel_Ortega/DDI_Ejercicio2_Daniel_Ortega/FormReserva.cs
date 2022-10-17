@@ -8,13 +8,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace DDI_Ejercicio2_Daniel_Ortega
 {
-    public partial class formReservas : Form
+    public partial class formReservas : System.Windows.Forms.Form
     {
         Dictionary<String,String> usuarios;
-        
+        ErrorProvider errorUser;
+
+
         public formReservas()
         {
             InitializeComponent();
@@ -23,7 +26,6 @@ namespace DDI_Ejercicio2_Daniel_Ortega
         private void Form1_Load(object sender, EventArgs e)
         {
             String[] credenciales;
-            panelReserva.Visible = false;
             String credencialProv = Properties.Resources.credenciales.ToString();
             credenciales = credencialProv.Split(new[] {";"}, StringSplitOptions.RemoveEmptyEntries);
             usuarios = new Dictionary<String,String>();
@@ -44,12 +46,22 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             {
                 if (passCheck.Equals(pass))
                 {
-                    buttonSesion.Visible = false;
+                    
+                    try
+                    {
+                        errorUser.Dispose();
+                    }
+                    catch(NullReferenceException ex)
+                    {
+                        
+                    }
+                    this.Visible = false;
+
                 }
             }
             else
             {
-                ErrorProvider errorUser = new ErrorProvider();
+                errorUser = new ErrorProvider();
                 errorUser.SetError(textBoxUser, "Usuario o contraseña incorrectos");
             }
         }
