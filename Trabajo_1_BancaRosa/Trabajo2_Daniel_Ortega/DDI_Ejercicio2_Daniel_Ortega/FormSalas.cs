@@ -16,5 +16,10 @@ namespace DDI_Ejercicio2_Daniel_Ortega
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
