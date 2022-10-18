@@ -30,9 +30,18 @@ namespace DDI_Ejercicio2_Daniel_Ortega
 
         }
 
-        public String getNombre()
+        public void Reservar(int hora)
+        {
+            horas[hora] = true;
+        }
+        public String GetNombre()
         {
             return nombre;
+        }
+
+        public Boolean[] getHoras()
+        {
+            return horas;
         }
         
     }

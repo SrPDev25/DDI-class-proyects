@@ -32,21 +32,22 @@ namespace DDI_Ejercicio2_Daniel_Ortega
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formReservas));
             this.panelSesion = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.buttonSesion = new System.Windows.Forms.Button();
             this.textBoxPass = new System.Windows.Forms.TextBox();
             this.textBoxUser = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.labelUsuario = new System.Windows.Forms.Label();
             this.panelSala = new System.Windows.Forms.Panel();
+            this.buttonVolver = new System.Windows.Forms.Button();
             this.labelCantidadPersonas = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonReserva = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.comboBoxHoras = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.labelHola = new System.Windows.Forms.Label();
             this.comboBoxSalas = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.panelSesion.SuspendLayout();
             this.panelSala.SuspendLayout();
             this.SuspendLayout();
@@ -64,6 +65,16 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             this.panelSesion.Name = "panelSesion";
             this.panelSesion.Size = new System.Drawing.Size(311, 192);
             this.panelSesion.TabIndex = 0;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(70, 23);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(152, 25);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Iniciar sesión";
             // 
             // buttonSesion
             // 
@@ -119,9 +130,10 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             // panelSala
             // 
             this.panelSala.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panelSala.Controls.Add(this.buttonVolver);
             this.panelSala.Controls.Add(this.labelCantidadPersonas);
             this.panelSala.Controls.Add(this.textBox1);
-            this.panelSala.Controls.Add(this.button1);
+            this.panelSala.Controls.Add(this.buttonReserva);
             this.panelSala.Controls.Add(this.label3);
             this.panelSala.Controls.Add(this.comboBoxHoras);
             this.panelSala.Controls.Add(this.label1);
@@ -131,6 +143,19 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             this.panelSala.Name = "panelSala";
             this.panelSala.Size = new System.Drawing.Size(776, 306);
             this.panelSala.TabIndex = 2;
+            // 
+            // buttonVolver
+            // 
+            this.buttonVolver.BackColor = System.Drawing.Color.IndianRed;
+            this.buttonVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonVolver.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonVolver.Location = new System.Drawing.Point(516, 238);
+            this.buttonVolver.Name = "buttonVolver";
+            this.buttonVolver.Size = new System.Drawing.Size(121, 56);
+            this.buttonVolver.TabIndex = 8;
+            this.buttonVolver.Text = "Volver";
+            this.buttonVolver.UseVisualStyleBackColor = false;
+            this.buttonVolver.Click += new System.EventHandler(this.buttonVolver_Click);
             // 
             // labelCantidadPersonas
             // 
@@ -148,17 +173,18 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             this.textBox1.Size = new System.Drawing.Size(32, 20);
             this.textBox1.TabIndex = 6;
             // 
-            // button1
+            // buttonReserva
             // 
-            this.button1.BackColor = System.Drawing.Color.IndianRed;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(643, 238);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 56);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Reservar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonReserva.BackColor = System.Drawing.Color.IndianRed;
+            this.buttonReserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonReserva.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonReserva.Location = new System.Drawing.Point(643, 238);
+            this.buttonReserva.Name = "buttonReserva";
+            this.buttonReserva.Size = new System.Drawing.Size(121, 56);
+            this.buttonReserva.TabIndex = 5;
+            this.buttonReserva.Text = "Reservar";
+            this.buttonReserva.UseVisualStyleBackColor = false;
+            this.buttonReserva.Click += new System.EventHandler(this.buttonReserva_Click);
             // 
             // label3
             // 
@@ -205,16 +231,7 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             this.comboBoxSalas.Name = "comboBoxSalas";
             this.comboBoxSalas.Size = new System.Drawing.Size(121, 21);
             this.comboBoxSalas.TabIndex = 0;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(70, 23);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(152, 25);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Iniciar sesión";
+            this.comboBoxSalas.SelectedIndexChanged += new System.EventHandler(this.comboBoxSalas_SelectedIndexChanged);
             // 
             // formReservas
             // 
@@ -245,7 +262,7 @@ namespace DDI_Ejercicio2_Daniel_Ortega
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelUsuario;
         private System.Windows.Forms.Panel panelSala;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonReserva;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboBoxHoras;
         private System.Windows.Forms.Label label1;
@@ -255,6 +272,7 @@ namespace DDI_Ejercicio2_Daniel_Ortega
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBoxPass;
         private Label label4;
+        private Button buttonVolver;
     }
 }
 
