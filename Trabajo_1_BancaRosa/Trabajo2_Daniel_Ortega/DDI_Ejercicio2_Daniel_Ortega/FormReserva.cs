@@ -43,7 +43,7 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             cargarSalas();
             cargarDatosPanel();
             panelSala.Visible = false;
-            this.Size = new Size(816, 163);
+            this.Size = new Size(349, 250);
 
         }
 
@@ -62,7 +62,7 @@ namespace DDI_Ejercicio2_Daniel_Ortega
                     panelSesion.Visible = false;
                     panelSala.Visible = true;
                     labelHola.Text = "Hola, " + user;
-                    this.Size = new Size(816, 379);
+                    this.Size = new Size(816, 366);
 
 
                 }
@@ -89,6 +89,11 @@ namespace DDI_Ejercicio2_Daniel_Ortega
                 comboBoxSalas.Items.Add(i.getNombre());
             }
             
+        }
+
+        private void labelUsuario_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
