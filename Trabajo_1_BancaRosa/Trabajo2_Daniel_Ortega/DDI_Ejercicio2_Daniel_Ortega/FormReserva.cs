@@ -37,10 +37,14 @@ namespace DDI_Ejercicio2_Daniel_Ortega
                 usuarios.Add(credenciales[i], credenciales[i + 1]);
                 i += 2;
             }
-            
+
             horas = new String[] {"8:00-9:00", "9:00-10:00", "10:00-11:00", "11:00-12:00", "12:00-13:00",
             "13:00-14:00", "14:00-15:00", "15:00-16:00", "16:00-17:00" };
             cargarSalas();
+            cargarDatosPanel();
+            panelSala.Visible = false;
+            this.Size = new Size(816, 163);
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -53,15 +57,13 @@ namespace DDI_Ejercicio2_Daniel_Ortega
                 if (passCheck.Equals(pass))
                 {
 
-                    try
-                    {
-                        errorUser.Dispose();
-                    }
-                    catch (NullReferenceException ex)
-                    {
 
-                    }
-                    this.Visible = false;
+
+                    panelSesion.Visible = false;
+                    panelSala.Visible = true;
+                    labelHola.Text = "Hola, " + user;
+                    this.Size = new Size(816, 379);
+
 
                 }
             }
@@ -74,11 +76,20 @@ namespace DDI_Ejercicio2_Daniel_Ortega
         private void cargarSalas()
         {
             salas = new List<Sala>();
-            salas.Add(new Sala("Sala 1",8));
+            salas.Add(new Sala("Sala 1", 8));
             salas.Add(new Sala("Sala 2", 10));
-            salas.Add(new Sala("Comedor",20,new int[] { 5, 6, 7 }));//Ocupa las horas indicadas del comedor
+            salas.Add(new Sala("Comedor", 20, new int[] { 5, 6, 7 }));//Ocupa las horas indicadas del comedor
 
+        }
+
+        private void cargarDatosPanel()
+        { 
+            foreach (Sala i in salas )
+            {
+                comboBoxSalas.Items.Add(i.getNombre());
+            }
+            
         }
     }
 }
-    
+

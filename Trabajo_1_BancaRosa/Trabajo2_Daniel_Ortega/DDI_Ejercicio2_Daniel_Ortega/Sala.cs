@@ -29,5 +29,11 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             }
 
         }
+
+        public String getNombre()
+        {
+            return nombre;
+        }
+        
     }
 }

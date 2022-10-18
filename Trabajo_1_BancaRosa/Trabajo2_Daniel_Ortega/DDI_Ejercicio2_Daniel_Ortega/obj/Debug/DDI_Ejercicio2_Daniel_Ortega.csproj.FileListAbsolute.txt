@@ -20,4 +20,3 @@ E:\Usuario\Documentos\Daniel\Estudios\Curso DAM2 22-23\DDI\DDI-class-proyects\Tr
 E:\Usuario\Documentos\Daniel\Estudios\Curso DAM2 22-23\DDI\DDI-class-proyects\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.csproj.CoreCompileInputs.cache
 E:\Usuario\Documentos\Daniel\Estudios\Curso DAM2 22-23\DDI\DDI-class-proyects\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.exe
 E:\Usuario\Documentos\Daniel\Estudios\Curso DAM2 22-23\DDI\DDI-class-proyects\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.pdb
-C:\Users\DAM\Documents\Proyectos\DDI\Trabajo_1_BancaRosa\Trabajo2_Daniel_Ortega\DDI_Ejercicio2_Daniel_Ortega\obj\Debug\DDI_Ejercicio2_Daniel_Ortega.FormContent.resources
