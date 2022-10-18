@@ -41,15 +41,24 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             this.panelSala = new System.Windows.Forms.Panel();
             this.buttonVolver = new System.Windows.Forms.Button();
             this.labelCantidadPersonas = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxPersonas = new System.Windows.Forms.TextBox();
             this.buttonReserva = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.comboBoxHoras = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.labelHola = new System.Windows.Forms.Label();
             this.comboBoxSalas = new System.Windows.Forms.ComboBox();
+            this.comboBoxComida = new System.Windows.Forms.ComboBox();
+            this.comboBoxBebida = new System.Windows.Forms.ComboBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panelSesion.SuspendLayout();
             this.panelSala.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSesion
@@ -130,18 +139,14 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             // panelSala
             // 
             this.panelSala.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panelSala.Controls.Add(this.panel2);
+            this.panelSala.Controls.Add(this.panel1);
             this.panelSala.Controls.Add(this.buttonVolver);
-            this.panelSala.Controls.Add(this.labelCantidadPersonas);
-            this.panelSala.Controls.Add(this.textBox1);
             this.panelSala.Controls.Add(this.buttonReserva);
-            this.panelSala.Controls.Add(this.label3);
-            this.panelSala.Controls.Add(this.comboBoxHoras);
-            this.panelSala.Controls.Add(this.label1);
             this.panelSala.Controls.Add(this.labelHola);
-            this.panelSala.Controls.Add(this.comboBoxSalas);
             this.panelSala.Location = new System.Drawing.Point(12, 12);
             this.panelSala.Name = "panelSala";
-            this.panelSala.Size = new System.Drawing.Size(776, 306);
+            this.panelSala.Size = new System.Drawing.Size(466, 306);
             this.panelSala.TabIndex = 2;
             // 
             // buttonVolver
@@ -149,9 +154,9 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             this.buttonVolver.BackColor = System.Drawing.Color.IndianRed;
             this.buttonVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonVolver.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonVolver.Location = new System.Drawing.Point(516, 238);
+            this.buttonVolver.Location = new System.Drawing.Point(317, 223);
             this.buttonVolver.Name = "buttonVolver";
-            this.buttonVolver.Size = new System.Drawing.Size(121, 56);
+            this.buttonVolver.Size = new System.Drawing.Size(114, 58);
             this.buttonVolver.TabIndex = 8;
             this.buttonVolver.Text = "Volver";
             this.buttonVolver.UseVisualStyleBackColor = false;
@@ -160,27 +165,28 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             // labelCantidadPersonas
             // 
             this.labelCantidadPersonas.AutoSize = true;
-            this.labelCantidadPersonas.Location = new System.Drawing.Point(348, 92);
+            this.labelCantidadPersonas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCantidadPersonas.Location = new System.Drawing.Point(305, 11);
             this.labelCantidadPersonas.Name = "labelCantidadPersonas";
-            this.labelCantidadPersonas.Size = new System.Drawing.Size(51, 13);
+            this.labelCantidadPersonas.Size = new System.Drawing.Size(67, 15);
             this.labelCantidadPersonas.TabIndex = 7;
             this.labelCantidadPersonas.Text = "Personas";
             // 
-            // textBox1
+            // textBoxPersonas
             // 
-            this.textBox1.Location = new System.Drawing.Point(351, 108);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(32, 20);
-            this.textBox1.TabIndex = 6;
+            this.textBoxPersonas.Location = new System.Drawing.Point(308, 27);
+            this.textBoxPersonas.Name = "textBoxPersonas";
+            this.textBoxPersonas.Size = new System.Drawing.Size(32, 20);
+            this.textBoxPersonas.TabIndex = 6;
             // 
             // buttonReserva
             // 
             this.buttonReserva.BackColor = System.Drawing.Color.IndianRed;
             this.buttonReserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonReserva.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonReserva.Location = new System.Drawing.Point(643, 238);
+            this.buttonReserva.Location = new System.Drawing.Point(317, 163);
             this.buttonReserva.Name = "buttonReserva";
-            this.buttonReserva.Size = new System.Drawing.Size(121, 56);
+            this.buttonReserva.Size = new System.Drawing.Size(114, 54);
             this.buttonReserva.TabIndex = 5;
             this.buttonReserva.Text = "Reservar";
             this.buttonReserva.UseVisualStyleBackColor = false;
@@ -189,9 +195,10 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(185, 92);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(166, 11);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(45, 15);
             this.label3.TabIndex = 4;
             this.label3.Text = "Horas";
             // 
@@ -199,7 +206,7 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             // 
             this.comboBoxHoras.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxHoras.FormattingEnabled = true;
-            this.comboBoxHoras.Location = new System.Drawing.Point(188, 108);
+            this.comboBoxHoras.Location = new System.Drawing.Point(169, 27);
             this.comboBoxHoras.Name = "comboBoxHoras";
             this.comboBoxHoras.Size = new System.Drawing.Size(121, 21);
             this.comboBoxHoras.TabIndex = 3;
@@ -207,9 +214,10 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 92);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(11, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 13);
+            this.label1.Size = new System.Drawing.Size(36, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "Sala";
             // 
@@ -227,18 +235,93 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             // 
             this.comboBoxSalas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxSalas.FormattingEnabled = true;
-            this.comboBoxSalas.Location = new System.Drawing.Point(33, 108);
+            this.comboBoxSalas.Location = new System.Drawing.Point(14, 27);
             this.comboBoxSalas.Name = "comboBoxSalas";
             this.comboBoxSalas.Size = new System.Drawing.Size(121, 21);
             this.comboBoxSalas.TabIndex = 0;
             this.comboBoxSalas.SelectedIndexChanged += new System.EventHandler(this.comboBoxSalas_SelectedIndexChanged);
+            // 
+            // comboBoxComida
+            // 
+            this.comboBoxComida.FormattingEnabled = true;
+            this.comboBoxComida.Location = new System.Drawing.Point(101, 53);
+            this.comboBoxComida.Name = "comboBoxComida";
+            this.comboBoxComida.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxComida.TabIndex = 9;
+            this.comboBoxComida.SelectedIndexChanged += new System.EventHandler(this.comboBoxComida_SelectedIndexChanged);
+            // 
+            // comboBoxBebida
+            // 
+            this.comboBoxBebida.FormattingEnabled = true;
+            this.comboBoxBebida.Location = new System.Drawing.Point(101, 80);
+            this.comboBoxBebida.Name = "comboBoxBebida";
+            this.comboBoxBebida.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxBebida.TabIndex = 10;
+            this.comboBoxBebida.SelectedIndexChanged += new System.EventHandler(this.comboBoxBebida_SelectedIndexChanged);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Bisque;
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.comboBoxComida);
+            this.panel1.Controls.Add(this.comboBoxBebida);
+            this.panel1.Location = new System.Drawing.Point(33, 163);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(278, 118);
+            this.panel1.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(28, 54);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(67, 15);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Bocadillo";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(41, 80);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(52, 15);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Bebida";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(41, 14);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(202, 15);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Servicio de comida (max 2.5€)";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Bisque;
+            this.panel2.Controls.Add(this.comboBoxSalas);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.comboBoxHoras);
+            this.panel2.Controls.Add(this.labelCantidadPersonas);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.textBoxPersonas);
+            this.panel2.Location = new System.Drawing.Point(33, 92);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(399, 65);
+            this.panel2.TabIndex = 15;
             // 
             // formReservas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(799, 327);
+            this.ClientSize = new System.Drawing.Size(490, 327);
             this.Controls.Add(this.panelSala);
             this.Controls.Add(this.panelSesion);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -250,6 +333,10 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             this.panelSesion.PerformLayout();
             this.panelSala.ResumeLayout(false);
             this.panelSala.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -269,10 +356,17 @@ namespace DDI_Ejercicio2_Daniel_Ortega
         private System.Windows.Forms.Label labelHola;
         private System.Windows.Forms.ComboBox comboBoxSalas;
         private System.Windows.Forms.Label labelCantidadPersonas;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxPersonas;
         private System.Windows.Forms.TextBox textBoxPass;
         private Label label4;
         private Button buttonVolver;
+        private Panel panel2;
+        private Panel panel1;
+        private Label label7;
+        private Label label6;
+        private Label label5;
+        private ComboBox comboBoxComida;
+        private ComboBox comboBoxBebida;
     }
 }
 

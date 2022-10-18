@@ -36,12 +36,17 @@ namespace DDI_Ejercicio2_Daniel_Ortega
         }
         public String GetNombre()
         {
-            return nombre;
+            return nombre+ " (" + aforo+" personas)";
         }
 
         public Boolean[] getHoras()
         {
             return horas;
+        }
+
+        public int getAforo()
+        {
+            return aforo;
         }
         
     }

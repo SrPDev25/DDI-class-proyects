@@ -19,8 +19,11 @@ namespace DDI_Ejercicio2_Daniel_Ortega
         List<String> happyUsers;
         String currentUser;
         List<Sala> salas;
+        List<Comida> comidas;
+        List<Comida> bebidas;
         ErrorProvider errorUser;
         Boolean[] horasSala;
+        Boolean comidaSeleccionada = false;
         ErrorProvider errorSeleccion;
 
 
@@ -46,8 +49,9 @@ namespace DDI_Ejercicio2_Daniel_Ortega
 
             horas = new String[] {"8:00-9:00", "9:00-10:00", "10:00-11:00", "11:00-12:00", "12:00-13:00",
             "13:00-14:00", "14:00-15:00", "15:00-16:00", "16:00-17:00" };
+            cargarComidas();
             cargarSalas();
-            cargarDatosPanel();
+
 
             panelSala.Visible = false;
             this.Size = new Size(349, 250);
@@ -68,9 +72,9 @@ namespace DDI_Ejercicio2_Daniel_Ortega
                         panelSesion.Visible = false;
                         panelSala.Visible = true;
                         labelHola.Text = "Hola, " + user;
-                        this.Size = new Size(816, 366);
+                        this.Size = new Size(500, 366);
                         currentUser = user;
-
+                        cargarDatosPanel();
                     }
                 }
                 else
@@ -94,16 +98,52 @@ namespace DDI_Ejercicio2_Daniel_Ortega
 
         }
 
+        private void cargarComidas()
+        {
+            comidas = new List<Comida>();
+            bebidas = new List<Comida>();
+            comidas.Add(new Comida("Cjuasan", 1));
+            comidas.Add(new Comida("Jamón", 1.5));
+            comidas.Add(new Comida("Vegetal", 2));
+            bebidas.Add(new Comida("Agua", 0.5));
+            bebidas.Add(new Comida("Cafe o Leche", 1));
+            bebidas.Add(new Comida("Zumo de naranja", 2));
+            
+        }
+
         private void cargarDatosPanel()
         {
             comboBoxSalas.Items.Clear();
             comboBoxHoras.Items.Clear();
+            comboBoxBebida.Items.Clear();
+            comboBoxComida.Items.Clear();
+            if (errorSeleccion!=null)
+            {
+                errorSeleccion.Dispose();
+            }
+            
             errorSeleccion = new ErrorProvider();
             foreach (Sala i in salas)
             {
                 comboBoxSalas.Items.Add(i.GetNombre());
             }
+            foreach (Comida comid in comidas)
+            {
+                comboBoxComida.Items.Add(comid.GetNombre());
+            }
+            foreach (Comida comid in bebidas)
+            {
+                comboBoxBebida.Items.Add(comid.GetNombre());
+            }
+            
 
+
+        }
+
+        private void cleanReserva()
+        {
+            textBoxPersonas.Text = "";
+            
         }
 
         private void labelUsuario_Click(object sender, EventArgs e)
@@ -141,7 +181,32 @@ namespace DDI_Ejercicio2_Daniel_Ortega
 
         private void buttonReserva_Click(object sender, EventArgs e)
         {
-            if (comboBoxHoras.SelectedIndex >= 0 && comboBoxSalas.SelectedIndex >= 0 && !horasSala[comboBoxHoras.SelectedIndex])
+            Boolean fine = true;
+            int personas = Int32.Parse(textBoxPersonas.Text);
+
+            if (comboBoxHoras.SelectedIndex < 0 || comboBoxSalas.SelectedIndex < 0 || horasSala[comboBoxHoras.SelectedIndex])
+            {
+                fine = false;
+            }
+            else
+            {
+                errorSeleccion.SetError(comboBoxHoras, "Seleccione una hora y una sala disponible");
+            }
+
+            if (personas == 0 && personas <= salas.ElementAt(comboBoxSalas.SelectedIndex).getAforo())
+            {
+                fine = false;
+            }
+            else
+            {
+                errorSeleccion.SetError(textBoxPersonas, "Indique el número de personas válido");
+            }
+
+
+
+
+
+            if (fine)
             {
                 errorSeleccion.Clear();
                 salas.ElementAt(comboBoxSalas.SelectedIndex).Reservar(comboBoxHoras.SelectedIndex);
@@ -150,10 +215,59 @@ namespace DDI_Ejercicio2_Daniel_Ortega
                 panelSesion.Visible = true;
                 this.Size = new Size(349, 250);
             }
+
+        }
+
+        private void comboBoxComida_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+                if (comprobacionComida())
+                {
+                    errorSeleccion.SetError(comboBoxComida, "Limite de precio pasado");
+                }
+            
+        }
+
+        private void comboBoxBebida_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+                if (comprobacionComida())
+                {
+                    errorSeleccion.SetError(comboBoxComida, "Limite de precio pasado");
+                }
+            
+        }
+        private Boolean comprobacionComida()
+        {
+            Boolean pasadoLimite = false;
+            double comida;
+            double bebida;
+
+            if (comboBoxComida.SelectedIndex >= 0)
+            {
+                comida = comidas.ElementAt(comboBoxComida.SelectedIndex).GetPrecio();
+            }
             else
             {
-                errorSeleccion.SetError(comboBoxHoras, "Seleccione una hora y una sala disponible");
+                comida = 0;
             }
+
+            if (comboBoxBebida.SelectedIndex >= 0)
+            {
+                bebida = comidas.ElementAt(comboBoxBebida.SelectedIndex).GetPrecio();
+            }
+            else
+            {
+                bebida = 0;
+            }
+
+
+            if (2.5 < (comida + bebida))
+            {
+                pasadoLimite = true;
+            }
+
+            return pasadoLimite;
         }
     }
 }
