@@ -74,6 +74,8 @@ namespace DDI_Ejercicio2_Daniel_Ortega
                         labelHola.Text = "Hola, " + user;
                         this.Size = new Size(500, 366);
                         currentUser = user;
+                        textBoxUser.Text = "";
+                        textBoxPass.Text = "";
                         cargarDatosPanel();
                     }
                 }
@@ -193,7 +195,7 @@ namespace DDI_Ejercicio2_Daniel_Ortega
                 errorSeleccion.SetError(comboBoxHoras, "Seleccione una hora y una sala disponible");
             }
 
-            if (personas == 0 && personas <= salas.ElementAt(comboBoxSalas.SelectedIndex).getAforo())
+            if (personas == 0 || personas >= salas.ElementAt(comboBoxSalas.SelectedIndex).getAforo())
             {
                 fine = false;
             }
@@ -213,6 +215,10 @@ namespace DDI_Ejercicio2_Daniel_Ortega
                 happyUsers.Add(currentUser);
                 panelSala.Visible = false;
                 panelSesion.Visible = true;
+                comboBoxBebida.Items.Clear();
+                comboBoxComida.Items.Clear();
+                comboBoxHoras.Items.Clear();
+                comboBoxSalas.Items.Clear();
                 this.Size = new Size(349, 250);
             }
 
