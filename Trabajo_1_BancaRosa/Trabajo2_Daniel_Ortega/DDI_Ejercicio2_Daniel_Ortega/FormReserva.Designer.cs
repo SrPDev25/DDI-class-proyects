@@ -243,6 +243,7 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             // 
             // comboBoxComida
             // 
+            this.comboBoxComida.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxComida.FormattingEnabled = true;
             this.comboBoxComida.Location = new System.Drawing.Point(101, 53);
             this.comboBoxComida.Name = "comboBoxComida";
@@ -252,6 +253,7 @@ namespace DDI_Ejercicio2_Daniel_Ortega
             // 
             // comboBoxBebida
             // 
+            this.comboBoxBebida.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxBebida.FormattingEnabled = true;
             this.comboBoxBebida.Location = new System.Drawing.Point(101, 80);
             this.comboBoxBebida.Name = "comboBoxBebida";
