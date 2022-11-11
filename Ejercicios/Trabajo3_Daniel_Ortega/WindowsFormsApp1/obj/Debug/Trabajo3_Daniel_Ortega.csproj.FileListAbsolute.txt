@@ -3,9 +3,9 @@ C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFo
 C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\Trabajo3_Daniel_Ortega.csproj.AssemblyReference.cache
 C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\Trabajo3_Daniel_Ortega.csproj.SuggestedBindingRedirects.cache
-C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
 C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\Trabajo3_Daniel_Ortega.csproj.GenerateResource.cache
 C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\Trabajo3_Daniel_Ortega.csproj.CoreCompileInputs.cache
 C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormMain.resources
