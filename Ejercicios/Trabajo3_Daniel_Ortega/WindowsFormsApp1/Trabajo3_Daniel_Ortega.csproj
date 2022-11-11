@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayList.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>

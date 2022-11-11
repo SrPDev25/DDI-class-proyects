@@ -25,6 +25,7 @@ namespace WindowsFormsApp1
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBoxCiudad.Items.Add("Burgos");
+            panelMenu.Visible=false;
         }
 
         
@@ -157,7 +158,33 @@ namespace WindowsFormsApp1
             return true;
         }
 
-        
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGeneral_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVegetal_Click(object sender, EventArgs e)
+        {
+            panelAddress.Visible=false;
+            panelMenu.Visible=true;
+            setAddress();
+        }
+
+        private void setAddress()
+        {
+            labelSetAddress.Text = comboBoxCiudad.Items+" ";
+        }
+
+        private void buttonVolver_Click(object sender, EventArgs e)
+        {
+            panelAddress.Visible = true;
+            panelMenu.Visible = false;
+        }
     }
 
 }
