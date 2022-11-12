@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayList.cs" />
+    <Compile Include="Visualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizar.Designer.cs">
+      <DependentUpon>Visualizar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
@@ -69,6 +75,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Visualizar.resx">
+      <DependentUpon>Visualizar.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,6 +96,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\kebab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuNoVegano.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuVegano.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebidas.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

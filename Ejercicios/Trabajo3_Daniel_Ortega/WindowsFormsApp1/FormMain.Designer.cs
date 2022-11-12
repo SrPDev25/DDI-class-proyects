@@ -1,4 +1,6 @@
-﻿namespace WindowsFormsApp1
+﻿using System.Windows.Forms;
+
+namespace WindowsFormsApp1
 {
     partial class FormMain
     {
@@ -64,6 +66,9 @@
             this.comboBoxPostre = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.comboBoxBebida = new System.Windows.Forms.ComboBox();
+            this.checkBoxPan = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBoxRealizarPedido.SuspendLayout();
@@ -104,6 +109,7 @@
             // 
             // comboBoxCiudad
             // 
+            this.comboBoxCiudad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCiudad.FormattingEnabled = true;
             this.comboBoxCiudad.Location = new System.Drawing.Point(177, 111);
             this.comboBoxCiudad.Name = "comboBoxCiudad";
@@ -217,6 +223,7 @@
             // 
             // comboBoxCalle
             // 
+            this.comboBoxCalle.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCalle.FormattingEnabled = true;
             this.comboBoxCalle.Location = new System.Drawing.Point(177, 138);
             this.comboBoxCalle.Name = "comboBoxCalle";
@@ -293,20 +300,21 @@
             // 
             // panelMenu
             // 
+            this.panelMenu.Controls.Add(this.checkBoxPan);
             this.panelMenu.Controls.Add(this.buttonVolver);
             this.panelMenu.Controls.Add(this.buttonVisualizar);
             this.panelMenu.Controls.Add(this.buttonRealizarPedido);
             this.panelMenu.Controls.Add(this.panel5);
             this.panelMenu.Controls.Add(this.panel4);
-            this.panelMenu.Location = new System.Drawing.Point(3, 106);
+            this.panelMenu.Location = new System.Drawing.Point(0, 106);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(518, 204);
+            this.panelMenu.Size = new System.Drawing.Size(518, 272);
             this.panelMenu.TabIndex = 21;
             // 
             // buttonVolver
             // 
             this.buttonVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonVolver.Location = new System.Drawing.Point(256, 151);
+            this.buttonVolver.Location = new System.Drawing.Point(256, 213);
             this.buttonVolver.Name = "buttonVolver";
             this.buttonVolver.Size = new System.Drawing.Size(135, 43);
             this.buttonVolver.TabIndex = 19;
@@ -318,18 +326,19 @@
             // 
             this.buttonVisualizar.BackColor = System.Drawing.Color.DarkGreen;
             this.buttonVisualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonVisualizar.Location = new System.Drawing.Point(256, 103);
+            this.buttonVisualizar.Location = new System.Drawing.Point(256, 165);
             this.buttonVisualizar.Name = "buttonVisualizar";
             this.buttonVisualizar.Size = new System.Drawing.Size(135, 45);
             this.buttonVisualizar.TabIndex = 18;
             this.buttonVisualizar.Text = "Visualizar";
             this.buttonVisualizar.UseVisualStyleBackColor = false;
+            this.buttonVisualizar.Click += new System.EventHandler(this.buttonVisualizar_Click);
             // 
             // buttonRealizarPedido
             // 
             this.buttonRealizarPedido.BackColor = System.Drawing.Color.SaddleBrown;
             this.buttonRealizarPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRealizarPedido.Location = new System.Drawing.Point(397, 107);
+            this.buttonRealizarPedido.Location = new System.Drawing.Point(397, 173);
             this.buttonRealizarPedido.Name = "buttonRealizarPedido";
             this.buttonRealizarPedido.Size = new System.Drawing.Size(111, 84);
             this.buttonRealizarPedido.TabIndex = 17;
@@ -359,6 +368,8 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Green;
+            this.panel4.Controls.Add(this.label12);
+            this.panel4.Controls.Add(this.comboBoxBebida);
             this.panel4.Controls.Add(this.comboBoxSegundoPlato);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.comboBoxPrimerPlato);
@@ -367,11 +378,12 @@
             this.panel4.Controls.Add(this.label10);
             this.panel4.Location = new System.Drawing.Point(26, 8);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(202, 189);
+            this.panel4.Size = new System.Drawing.Size(202, 249);
             this.panel4.TabIndex = 15;
             // 
             // comboBoxSegundoPlato
             // 
+            this.comboBoxSegundoPlato.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxSegundoPlato.FormattingEnabled = true;
             this.comboBoxSegundoPlato.Location = new System.Drawing.Point(57, 99);
             this.comboBoxSegundoPlato.Name = "comboBoxSegundoPlato";
@@ -391,6 +403,7 @@
             // 
             // comboBoxPrimerPlato
             // 
+            this.comboBoxPrimerPlato.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxPrimerPlato.FormattingEnabled = true;
             this.comboBoxPrimerPlato.Location = new System.Drawing.Point(57, 38);
             this.comboBoxPrimerPlato.Name = "comboBoxPrimerPlato";
@@ -399,6 +412,7 @@
             // 
             // comboBoxPostre
             // 
+            this.comboBoxPostre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxPostre.FormattingEnabled = true;
             this.comboBoxPostre.Location = new System.Drawing.Point(57, 156);
             this.comboBoxPostre.Name = "comboBoxPostre";
@@ -415,7 +429,6 @@
             this.label8.Size = new System.Drawing.Size(94, 18);
             this.label8.TabIndex = 10;
             this.label8.Text = "Primer plato*";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label10
             // 
@@ -428,12 +441,43 @@
             this.label10.TabIndex = 12;
             this.label10.Text = "Extra*";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label12.Location = new System.Drawing.Point(20, 177);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(53, 18);
+            this.label12.TabIndex = 16;
+            this.label12.Text = "Bebida";
+            // 
+            // comboBoxBebida
+            // 
+            this.comboBoxBebida.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxBebida.FormattingEnabled = true;
+            this.comboBoxBebida.Location = new System.Drawing.Point(57, 205);
+            this.comboBoxBebida.Name = "comboBoxBebida";
+            this.comboBoxBebida.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxBebida.TabIndex = 15;
+            // 
+            // checkBoxPan
+            // 
+            this.checkBoxPan.AutoSize = true;
+            this.checkBoxPan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxPan.Location = new System.Drawing.Point(256, 125);
+            this.checkBoxPan.Name = "checkBoxPan";
+            this.checkBoxPan.Size = new System.Drawing.Size(187, 22);
+            this.checkBoxPan.TabIndex = 20;
+            this.checkBoxPan.Text = "Complemento de pan";
+            this.checkBoxPan.UseVisualStyleBackColor = true;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BlueViolet;
-            this.ClientSize = new System.Drawing.Size(523, 315);
+            this.ClientSize = new System.Drawing.Size(523, 376);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelAddress);
             this.Controls.Add(this.panel1);
@@ -449,6 +493,7 @@
             this.panelAddress.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.error)).EndInit();
             this.panelMenu.ResumeLayout(false);
+            this.panelMenu.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -493,6 +538,9 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label labelSetAddress;
         private System.Windows.Forms.Panel panel4;
+        private CheckBox checkBoxPan;
+        private Label label12;
+        private ComboBox comboBoxBebida;
     }
 }
 
