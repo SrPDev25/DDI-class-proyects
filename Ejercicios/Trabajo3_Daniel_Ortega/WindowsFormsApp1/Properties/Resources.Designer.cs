@@ -61,6 +61,15 @@ namespace WindowsFormsApp1.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Agua 1L/Estrella Galicia 33cl/Cocacola 33cl.
+        /// </summary>
+        internal static string bebidas {
+            get {
+                return ResourceManager.GetString("bebidas", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a C.Esteban Sáez Alvarado/C.Fuenteovejuna/C.Cordón Herrera/C.Padre Arregui/C. López Rodó/C.de la Esperanza/C.Lazarillo de Tormes/C.Duque de Frías/C.Victoria Balfe/C.Condesa Mencía/C.Francia/C.de Pessac/C.de Loudum/C.Río Nela.
         /// </summary>
         internal static string calles {
@@ -76,6 +85,24 @@ namespace WindowsFormsApp1.Properties {
             get {
                 object obj = ResourceManager.GetObject("kebab", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Durum con pulled pork/Durum de &quot;jamon&quot;/Durum de &quot;tenera&quot;;Extra de roquefort/Extra de &quot;ternera&quot;/Extra de pan de pita;Tarta de queso/Tarta de chocolate/Kebab de chocolate.
+        /// </summary>
+        internal static string MenuNoVegano {
+            get {
+                return ResourceManager.GetString("MenuNoVegano", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Durum de boletus/Lechuga con durum/Kebab de pollo vegano;Salsa roquefort/Extra de boletus/Pimientos de padron;Tarta de chocolate/Torre de Babel/Kebab de chocolate .
+        /// </summary>
+        internal static string MenuVegano {
+            get {
+                return ResourceManager.GetString("MenuVegano", resourceCulture);
             }
         }
     }

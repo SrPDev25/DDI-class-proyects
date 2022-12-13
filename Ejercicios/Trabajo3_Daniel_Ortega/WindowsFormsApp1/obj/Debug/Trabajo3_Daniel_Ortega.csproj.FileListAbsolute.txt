@@ -9,3 +9,15 @@ C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFo
 C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\DAM\Documents\Proyectos\DDI\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormMain.resources
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\Trabajo3_Daniel_Ortega.csproj.AssemblyReference.cache
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\Trabajo3_Daniel_Ortega.csproj.SuggestedBindingRedirects.cache
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormMain.resources
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\Trabajo3_Daniel_Ortega.csproj.GenerateResource.cache
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\Trabajo3_Daniel_Ortega.csproj.CoreCompileInputs.cache
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+F:\Curso DAM2 22-23\DDI\DDI-class-proyects\Ejercicios\Trabajo3_Daniel_Ortega\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Visualizar.resources
