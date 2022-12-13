@@ -1,0 +1,11 @@
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\ParqueNatural_DanielOrtega\bin\Debug\ParqueNatural_DanielOrtega.exe.config
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\ParqueNatural_DanielOrtega\bin\Debug\ParqueNatural_DanielOrtega.exe
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\ParqueNatural_DanielOrtega\bin\Debug\ParqueNatural_DanielOrtega.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\ParqueNatural_DanielOrtega\obj\Debug\ParqueNatural_DanielOrtega.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\ParqueNatural_DanielOrtega\obj\Debug\ParqueNatural_DanielOrtega.csproj.SuggestedBindingRedirects.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\ParqueNatural_DanielOrtega\obj\Debug\ParqueNatural_DanielOrtega.Form1.resources
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\ParqueNatural_DanielOrtega\obj\Debug\ParqueNatural_DanielOrtega.Properties.Resources.resources
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\ParqueNatural_DanielOrtega\obj\Debug\ParqueNatural_DanielOrtega.csproj.GenerateResource.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\ParqueNatural_DanielOrtega\obj\Debug\ParqueNatural_DanielOrtega.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\ParqueNatural_DanielOrtega\obj\Debug\ParqueNatural_DanielOrtega.exe
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\ParqueNatural_DanielOrtega\obj\Debug\ParqueNatural_DanielOrtega.pdb

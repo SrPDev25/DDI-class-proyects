@@ -1,0 +1,14 @@
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\bin\Debug\SISTEMA_VENTAS_ALVAR.exe.config
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\bin\Debug\SISTEMA_VENTAS_ALVAR.exe
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\bin\Debug\SISTEMA_VENTAS_ALVAR.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\obj\Debug\SISTEMA_VENTAS_ALVAR.Inicio.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\obj\Debug\SISTEMA_VENTAS_ALVAR.Login.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\obj\Debug\SISTEMA_VENTAS_ALVAR.Properties.Resources.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\obj\Debug\SISTEMA_VENTAS_ALVAR.exe
+C:\Users\DAM\Documents\Proyectos\DDI\SISTEMA_VENTAS_ALVAR\SISTEMA_VENTAS_ALVAR\obj\Debug\SISTEMA_VENTAS_ALVAR.pdb

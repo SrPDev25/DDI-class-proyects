@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tF5RHuTf+AjK1Tr2kEy27HQs7K5rqOWdvGMl88FvHD3B3LkOX0iSuEKCw0tc/kk6apgLYQJ9LRT9foH/t16MHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DAM\\Documents\\Proyectos\\DDI\\Trabajo3_Daniel_Ortega\\SistemaVentas_DanielOrtega\\CapaPresentacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DAM\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
