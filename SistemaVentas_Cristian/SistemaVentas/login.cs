@@ -31,7 +31,6 @@ namespace SistemaVentas
                 inicio form = new inicio(/*ousuario*/);
                 form.Show();
                 this.Hide();//DESPUES DE INICIAR CIERRAS ESTE PANEL
-
                 form.FormClosing += frm_closing;//CUANDO CIERRES EL DE INICIO TE REABRE ESTE
                 txUser.Text = "";
                 txContra.Text = "";
