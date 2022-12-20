@@ -1,0 +1,41 @@
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\bin\Debug\SistemaVentas.exe.config
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\bin\Debug\SistemaVentas.exe
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\bin\Debug\SistemaVentas.pdb
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\bin\Debug\FontAwesome.Sharp.dll
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\obj\Debug\SistemaVentas.inicio.resources
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\obj\Debug\SistemaVentas.Properties.Resources.resources
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\obj\Debug\CapaPresentacion.csproj.CopyComplete
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\obj\Debug\SistemaVentas.exe
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\obj\Debug\SistemaVentas.pdb
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\obj\Debug\SistemaVentas.login.resources
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\bin\Debug\CapaEntidad.dll
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\bin\Debug\CapaNegocio.dll
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\bin\Debug\CapaDatos.dll
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\bin\Debug\CapaEntidad.pdb
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\bin\Debug\CapaNegocio.pdb
+D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\SistemaVentas\bin\Debug\CapaDatos.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\SistemaVentas.exe.config
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\SistemaVentas.exe
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\SistemaVentas.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\CapaDatos.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\CapaEntidad.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\CapaNegocio.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\CapaDatos.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\CapaEntidad.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\CapaNegocio.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\SistemaVentas.inicio.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\SistemaVentas.login.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\SistemaVentas.Properties.Resources.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\SistemaVentas.exe
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\SistemaVentas.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\CapaDatos.dll.config
