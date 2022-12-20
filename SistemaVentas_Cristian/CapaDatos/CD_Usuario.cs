@@ -14,7 +14,7 @@ namespace CapaDatos
                 try
                 {
                     //StringBuilder query=new StringBuilder();
-                    string query = "SELECT IdUsuario, Documento,NombreCompleto,Correo,Clave,Estado from usuarios";
+                    string query = "SELECT IdUsuario, Documento,NombreCompleto,Clave,Estado,Correo from usuario";
                     SqlCommand cmd = new SqlCommand(query, oconexion);
 
                     oconexion.Open();

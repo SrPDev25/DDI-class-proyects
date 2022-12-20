@@ -7,3 +7,13 @@ D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\CapaDatos\obj\Debug\Capa
 D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\CapaDatos\obj\Debug\CapaDatos.dll
 D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaDatos\bin\Debug\CapaDatos.dll.config

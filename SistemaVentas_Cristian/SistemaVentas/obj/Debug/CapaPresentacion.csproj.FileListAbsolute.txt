@@ -38,3 +38,4 @@ C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\De
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\SistemaVentas.exe
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\SistemaVentas.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\CapaDatos.dll.config

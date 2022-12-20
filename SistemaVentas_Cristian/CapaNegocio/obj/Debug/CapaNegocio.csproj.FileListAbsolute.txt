@@ -9,3 +9,15 @@ D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\CapaNegocio\obj\Debug\Ca
 D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\CapaNegocio\obj\Debug\CapaNegocio.dll
 D:\2ºDAM\DESARROLLO DE INTERFACES\TEORIA\SistemaVentas\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\CapaNegocio\bin\Debug\CapaDatos.dll.config
