@@ -39,6 +39,8 @@
             this.menuAcercaDe = new FontAwesome.Sharp.IconMenuItem();
             this.menuTitulo = new System.Windows.Forms.MenuStrip();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.labelTipoUsuario = new System.Windows.Forms.Label();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -194,18 +196,43 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "SISTEMA DE VENTAS";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.SteelBlue;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(716, 24);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 15);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Usuario:";
+            // 
+            // labelTipoUsuario
+            // 
+            this.labelTipoUsuario.AutoSize = true;
+            this.labelTipoUsuario.BackColor = System.Drawing.Color.SteelBlue;
+            this.labelTipoUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTipoUsuario.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelTipoUsuario.Location = new System.Drawing.Point(776, 24);
+            this.labelTipoUsuario.Name = "labelTipoUsuario";
+            this.labelTipoUsuario.Size = new System.Drawing.Size(61, 15);
+            this.labelTipoUsuario.TabIndex = 4;
+            this.labelTipoUsuario.Text = "Usuario:";
+            // 
             // inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1046, 536);
+            this.Controls.Add(this.labelTipoUsuario);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.menuTitulo);
             this.MainMenuStrip = this.menu;
             this.Name = "inicio";
             this.Text = "Menú Principal";
-       
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
             this.ResumeLayout(false);
@@ -226,6 +253,8 @@
         private FontAwesome.Sharp.IconMenuItem menuInformes;
         private FontAwesome.Sharp.IconMenuItem menuAcercaDe;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelTipoUsuario;
     }
 }
 
