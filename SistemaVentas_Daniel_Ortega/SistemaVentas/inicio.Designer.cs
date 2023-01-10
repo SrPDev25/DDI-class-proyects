@@ -41,6 +41,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.labelTipoUsuario = new System.Windows.Forms.Label();
+            this.categoriaSubmenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.productoSubMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,11 +76,15 @@
             this.menuUsuarios.Size = new System.Drawing.Size(80, 69);
             this.menuUsuarios.Text = "Usuario";
             this.menuUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menuUsuarios.Click += new System.EventHandler(this.menuUsuarios_Click);
             // 
             // menuAdmin
             // 
             this.menuAdmin.AutoSize = false;
             this.menuAdmin.CheckOnClick = true;
+            this.menuAdmin.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.categoriaSubmenu,
+            this.productoSubMenu});
             this.menuAdmin.IconChar = FontAwesome.Sharp.IconChar.ScrewdriverWrench;
             this.menuAdmin.IconColor = System.Drawing.Color.Black;
             this.menuAdmin.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -220,6 +226,18 @@
             this.labelTipoUsuario.TabIndex = 4;
             this.labelTipoUsuario.Text = "Usuario:";
             // 
+            // categoriaSubmenu
+            // 
+            this.categoriaSubmenu.Name = "categoriaSubmenu";
+            this.categoriaSubmenu.Size = new System.Drawing.Size(180, 22);
+            this.categoriaSubmenu.Text = "Categoría";
+            // 
+            // productoSubMenu
+            // 
+            this.productoSubMenu.Name = "productoSubMenu";
+            this.productoSubMenu.Size = new System.Drawing.Size(180, 22);
+            this.productoSubMenu.Text = "Producto";
+            // 
             // inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -255,6 +273,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelTipoUsuario;
+        private System.Windows.Forms.ToolStripMenuItem categoriaSubmenu;
+        private System.Windows.Forms.ToolStripMenuItem productoSubMenu;
     }
 }
 
