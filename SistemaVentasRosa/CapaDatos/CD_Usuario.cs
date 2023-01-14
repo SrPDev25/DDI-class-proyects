@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 using CapaEntidad;
+using System.Reflection;
+using System.Windows.Controls.Primitives;
 
 
 namespace CapaDatos
@@ -19,7 +21,8 @@ namespace CapaDatos
                 try
                 {
                     StringBuilder query = new StringBuilder();
-                    query.AppendLine("SELECT u.IdUsuario, u.Documento, u.NombreCompleto, u.Correo, u.Clave, u.Estado FROM USUARIO u");
+                    query.AppendLine("SELECT u.IdUsuario, u.Documento, u.NombreCompleto, u.Correo, u.Clave, u.Estado, r.IdRol, r.Descripcion" +
+                        " FROM usuario u inner join rol r ON u.idRol = r.IdRol");
                     SqlCommand cmd = new SqlCommand(query.ToString(), oconexion);
                     cmd.CommandType = CommandType.Text;
 
