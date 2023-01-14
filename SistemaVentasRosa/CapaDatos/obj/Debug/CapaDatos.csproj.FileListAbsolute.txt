@@ -16,3 +16,4 @@ D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaDatos\obj\Debug\CapaDatos.cspr
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaDatos\obj\Debug\CapaDatos.dll
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaDatos\bin\Debug\CapaDatos.dll.config
