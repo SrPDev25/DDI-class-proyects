@@ -48,6 +48,17 @@ namespace CapaPresentacion
             cbobusqueda.DisplayMember = "Texto";
             cbobusqueda.ValueMember = "Valor";
             cborol.SelectedIndex = 0;
+
+            List<Usuario> listaUsuario=new CN_Usuario().Listar();
+            foreach(Usuario item in listaUsuario)
+            {
+                dgvdata.Rows.Add(new object[] {"",item.IdUsuario,item.Documento,item.NombreCompleto,
+                    item.Correo,item.Clave,item.oRol.IdRol,
+                    item.oRol.Descripcion,
+                    item.Estado==true? 1:0,
+                    item.Estado==true ? "Activo":"No Activo"
+                });
+            }
         }
 
         private void btnguardar_Click(object sender, EventArgs e)
@@ -77,6 +88,22 @@ namespace CapaPresentacion
             txtdocumento.Select();
         }
 
-     
+        private void dgvdata_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
+        {
+            if (e.RowIndex < 0)
+                return;
+            if (e.ColumnIndex == 0)
+            {
+                e.Paint(e.CellBounds, DataGridViewPaintParts.All);
+
+                var w = Properties.Resources.check.Width;
+                var h = Properties.Resources.check.Height;
+                var x = e.CellBounds.Left + (e.CellBounds.Width - w) / 2;
+                var y = e.CellBounds.Top + (e.CellBounds.Width - h) / 2;
+
+                e.Graphics.DrawImage(Properties.Resources.check, new Rectangle(x, y, w, h));
+                e.Handled = true;
+            }
+        }
     }
 }

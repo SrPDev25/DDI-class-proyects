@@ -75,9 +75,10 @@ namespace CapaPresentacion
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 18);
+            this.label1.Location = new System.Drawing.Point(9, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 29);
+            this.label1.Size = new System.Drawing.Size(144, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Detalle Usuario";
             // 
@@ -87,17 +88,19 @@ namespace CapaPresentacion
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Dock = System.Windows.Forms.DockStyle.Left;
             this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(231, 522);
+            this.label2.Size = new System.Drawing.Size(174, 424);
             this.label2.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(17, 61);
+            this.label3.Location = new System.Drawing.Point(13, 50);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 17);
+            this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Usuario";
             // 
@@ -105,9 +108,10 @@ namespace CapaPresentacion
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(17, 109);
+            this.label4.Location = new System.Drawing.Point(13, 89);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 17);
+            this.label4.Size = new System.Drawing.Size(91, 13);
             this.label4.TabIndex = 2;
             this.label4.Text = "Nombre Completo";
             // 
@@ -115,9 +119,10 @@ namespace CapaPresentacion
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(17, 158);
+            this.label5.Location = new System.Drawing.Point(13, 128);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 17);
+            this.label5.Size = new System.Drawing.Size(38, 13);
             this.label5.TabIndex = 2;
             this.label5.Text = "Correo";
             // 
@@ -125,9 +130,10 @@ namespace CapaPresentacion
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(17, 206);
+            this.label6.Location = new System.Drawing.Point(13, 167);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(81, 17);
+            this.label6.Size = new System.Drawing.Size(61, 13);
             this.label6.TabIndex = 2;
             this.label6.Text = "Contraseña";
             // 
@@ -135,9 +141,10 @@ namespace CapaPresentacion
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(17, 255);
+            this.label7.Location = new System.Drawing.Point(13, 207);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(144, 17);
+            this.label7.Size = new System.Drawing.Size(107, 13);
             this.label7.TabIndex = 2;
             this.label7.Text = "Confirmar contraseña";
             // 
@@ -145,9 +152,10 @@ namespace CapaPresentacion
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(17, 305);
+            this.label8.Location = new System.Drawing.Point(13, 248);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 17);
+            this.label8.Size = new System.Drawing.Size(23, 13);
             this.label8.TabIndex = 2;
             this.label8.Text = "Rol";
             // 
@@ -155,63 +163,71 @@ namespace CapaPresentacion
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(17, 354);
+            this.label9.Location = new System.Drawing.Point(13, 288);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(52, 17);
+            this.label9.Size = new System.Drawing.Size(40, 13);
             this.label9.TabIndex = 2;
             this.label9.Text = "Estado";
             // 
             // txtdocumento
             // 
-            this.txtdocumento.Location = new System.Drawing.Point(20, 82);
+            this.txtdocumento.Location = new System.Drawing.Point(15, 67);
+            this.txtdocumento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtdocumento.Name = "txtdocumento";
-            this.txtdocumento.Size = new System.Drawing.Size(178, 22);
+            this.txtdocumento.Size = new System.Drawing.Size(134, 20);
             this.txtdocumento.TabIndex = 3;
             // 
             // txtnombrecompleto
             // 
-            this.txtnombrecompleto.Location = new System.Drawing.Point(20, 133);
+            this.txtnombrecompleto.Location = new System.Drawing.Point(15, 108);
+            this.txtnombrecompleto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtnombrecompleto.Name = "txtnombrecompleto";
-            this.txtnombrecompleto.Size = new System.Drawing.Size(178, 22);
+            this.txtnombrecompleto.Size = new System.Drawing.Size(134, 20);
             this.txtnombrecompleto.TabIndex = 3;
             // 
             // txtcorreo
             // 
-            this.txtcorreo.Location = new System.Drawing.Point(20, 178);
+            this.txtcorreo.Location = new System.Drawing.Point(15, 145);
+            this.txtcorreo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtcorreo.Name = "txtcorreo";
-            this.txtcorreo.Size = new System.Drawing.Size(178, 22);
+            this.txtcorreo.Size = new System.Drawing.Size(134, 20);
             this.txtcorreo.TabIndex = 3;
             // 
             // txtclave
             // 
-            this.txtclave.Location = new System.Drawing.Point(20, 226);
+            this.txtclave.Location = new System.Drawing.Point(15, 184);
+            this.txtclave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtclave.Name = "txtclave";
-            this.txtclave.Size = new System.Drawing.Size(178, 22);
+            this.txtclave.Size = new System.Drawing.Size(134, 20);
             this.txtclave.TabIndex = 3;
             // 
             // txtconfirmarclave
             // 
-            this.txtconfirmarclave.Location = new System.Drawing.Point(20, 275);
+            this.txtconfirmarclave.Location = new System.Drawing.Point(15, 223);
+            this.txtconfirmarclave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtconfirmarclave.Name = "txtconfirmarclave";
-            this.txtconfirmarclave.Size = new System.Drawing.Size(178, 22);
+            this.txtconfirmarclave.Size = new System.Drawing.Size(134, 20);
             this.txtconfirmarclave.TabIndex = 3;
             // 
             // cborol
             // 
             this.cborol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cborol.FormattingEnabled = true;
-            this.cborol.Location = new System.Drawing.Point(20, 326);
+            this.cborol.Location = new System.Drawing.Point(15, 265);
+            this.cborol.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cborol.Name = "cborol";
-            this.cborol.Size = new System.Drawing.Size(178, 24);
+            this.cborol.Size = new System.Drawing.Size(134, 21);
             this.cborol.TabIndex = 4;
             // 
             // cboestado
             // 
             this.cboestado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboestado.FormattingEnabled = true;
-            this.cboestado.Location = new System.Drawing.Point(20, 374);
+            this.cboestado.Location = new System.Drawing.Point(15, 304);
+            this.cboestado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cboestado.Name = "cboestado";
-            this.cboestado.Size = new System.Drawing.Size(178, 24);
+            this.cboestado.Size = new System.Drawing.Size(134, 21);
             this.cboestado.TabIndex = 5;
             // 
             // btnguardar
@@ -225,10 +241,10 @@ namespace CapaPresentacion
             this.btnguardar.IconColor = System.Drawing.Color.White;
             this.btnguardar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnguardar.IconSize = 18;
-            this.btnguardar.Location = new System.Drawing.Point(23, 411);
+            this.btnguardar.Location = new System.Drawing.Point(17, 334);
             this.btnguardar.Margin = new System.Windows.Forms.Padding(0);
             this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(175, 28);
+            this.btnguardar.Size = new System.Drawing.Size(131, 23);
             this.btnguardar.TabIndex = 6;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -247,10 +263,10 @@ namespace CapaPresentacion
             this.btnlimpiar.IconColor = System.Drawing.Color.White;
             this.btnlimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnlimpiar.IconSize = 18;
-            this.btnlimpiar.Location = new System.Drawing.Point(23, 443);
+            this.btnlimpiar.Location = new System.Drawing.Point(17, 360);
             this.btnlimpiar.Margin = new System.Windows.Forms.Padding(0);
             this.btnlimpiar.Name = "btnlimpiar";
-            this.btnlimpiar.Size = new System.Drawing.Size(175, 28);
+            this.btnlimpiar.Size = new System.Drawing.Size(131, 23);
             this.btnlimpiar.TabIndex = 6;
             this.btnlimpiar.Text = "Limpiar";
             this.btnlimpiar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -268,10 +284,10 @@ namespace CapaPresentacion
             this.btneliminar.IconColor = System.Drawing.Color.White;
             this.btneliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btneliminar.IconSize = 18;
-            this.btneliminar.Location = new System.Drawing.Point(23, 475);
+            this.btneliminar.Location = new System.Drawing.Point(17, 386);
             this.btneliminar.Margin = new System.Windows.Forms.Padding(0);
             this.btneliminar.Name = "btneliminar";
-            this.btneliminar.Size = new System.Drawing.Size(175, 28);
+            this.btneliminar.Size = new System.Drawing.Size(131, 23);
             this.btneliminar.TabIndex = 6;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -292,12 +308,14 @@ namespace CapaPresentacion
             this.Rol,
             this.EstadoValor,
             this.Estado});
-            this.dgvdata.Location = new System.Drawing.Point(247, 82);
+            this.dgvdata.Location = new System.Drawing.Point(185, 67);
+            this.dgvdata.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvdata.Name = "dgvdata";
             this.dgvdata.RowHeadersWidth = 51;
             this.dgvdata.RowTemplate.Height = 24;
-            this.dgvdata.Size = new System.Drawing.Size(873, 440);
+            this.dgvdata.Size = new System.Drawing.Size(655, 358);
             this.dgvdata.TabIndex = 7;
+            this.dgvdata.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvdata_CellPainting);
             // 
             // btnSeleccionar
             // 
@@ -380,18 +398,20 @@ namespace CapaPresentacion
             this.label10.BackColor = System.Drawing.Color.White;
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(247, 9);
+            this.label10.Location = new System.Drawing.Point(185, 7);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(873, 51);
+            this.label10.Size = new System.Drawing.Size(655, 42);
             this.label10.TabIndex = 0;
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtId
             // 
             this.txtId.AutoSize = true;
-            this.txtId.Location = new System.Drawing.Point(143, 51);
+            this.txtId.Location = new System.Drawing.Point(107, 41);
+            this.txtId.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(66, 17);
+            this.txtId.Size = new System.Drawing.Size(50, 13);
             this.txtId.TabIndex = 8;
             this.txtId.Text = "id control";
             // 
@@ -399,9 +419,10 @@ namespace CapaPresentacion
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(505, 27);
+            this.label11.Location = new System.Drawing.Point(379, 22);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(81, 17);
+            this.label11.Size = new System.Drawing.Size(61, 13);
             this.label11.TabIndex = 9;
             this.label11.Text = "Buscar por:";
             // 
@@ -409,9 +430,10 @@ namespace CapaPresentacion
             // 
             this.cbobusqueda.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbobusqueda.FormattingEnabled = true;
-            this.cbobusqueda.Location = new System.Drawing.Point(608, 25);
+            this.cbobusqueda.Location = new System.Drawing.Point(456, 20);
+            this.cbobusqueda.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbobusqueda.Name = "cbobusqueda";
-            this.cbobusqueda.Size = new System.Drawing.Size(213, 24);
+            this.cbobusqueda.Size = new System.Drawing.Size(161, 21);
             this.cbobusqueda.TabIndex = 4;
             // 
             // btnlimpiarbuscador
@@ -422,10 +444,10 @@ namespace CapaPresentacion
             this.btnlimpiarbuscador.IconColor = System.Drawing.Color.Black;
             this.btnlimpiarbuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnlimpiarbuscador.IconSize = 18;
-            this.btnlimpiarbuscador.Location = new System.Drawing.Point(1025, 25);
+            this.btnlimpiarbuscador.Location = new System.Drawing.Point(769, 20);
             this.btnlimpiarbuscador.Margin = new System.Windows.Forms.Padding(0);
             this.btnlimpiarbuscador.Name = "btnlimpiarbuscador";
-            this.btnlimpiarbuscador.Size = new System.Drawing.Size(25, 25);
+            this.btnlimpiarbuscador.Size = new System.Drawing.Size(19, 20);
             this.btnlimpiarbuscador.TabIndex = 11;
             this.btnlimpiarbuscador.UseVisualStyleBackColor = false;
             // 
@@ -437,11 +459,11 @@ namespace CapaPresentacion
             this.btnbuscar.IconColor = System.Drawing.Color.Black;
             this.btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscar.IconSize = 18;
-            this.btnbuscar.Location = new System.Drawing.Point(994, 25);
+            this.btnbuscar.Location = new System.Drawing.Point(746, 20);
             this.btnbuscar.Margin = new System.Windows.Forms.Padding(0);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnbuscar.Size = new System.Drawing.Size(25, 25);
+            this.btnbuscar.Size = new System.Drawing.Size(19, 20);
             this.btnbuscar.TabIndex = 11;
             this.btnbuscar.UseVisualStyleBackColor = false;
             // 
@@ -449,9 +471,10 @@ namespace CapaPresentacion
             // 
             this.txtbusqueda.BackColor = System.Drawing.Color.White;
             this.txtbusqueda.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbusqueda.Location = new System.Drawing.Point(827, 25);
+            this.txtbusqueda.Location = new System.Drawing.Point(620, 20);
+            this.txtbusqueda.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtbusqueda.Name = "txtbusqueda";
-            this.txtbusqueda.Size = new System.Drawing.Size(164, 25);
+            this.txtbusqueda.Size = new System.Drawing.Size(124, 21);
             this.txtbusqueda.TabIndex = 12;
             // 
             // label12
@@ -459,17 +482,18 @@ namespace CapaPresentacion
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(267, 21);
+            this.label12.Location = new System.Drawing.Point(200, 17);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(216, 29);
+            this.label12.Size = new System.Drawing.Size(168, 25);
             this.label12.TabIndex = 0;
             this.label12.Text = "Lista de Usuarios:";
             // 
             // frmUsuarios
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1132, 522);
+            this.ClientSize = new System.Drawing.Size(849, 424);
             this.Controls.Add(this.txtbusqueda);
             this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.btnlimpiarbuscador);
@@ -499,6 +523,7 @@ namespace CapaPresentacion
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label10);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmUsuarios";
             this.Text = "frmUsuarios";
             this.Load += new System.EventHandler(this.frmUsuarios_Load);
