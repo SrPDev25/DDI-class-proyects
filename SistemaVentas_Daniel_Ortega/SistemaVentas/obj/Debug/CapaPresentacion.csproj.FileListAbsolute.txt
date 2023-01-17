@@ -39,3 +39,24 @@ C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\De
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\SistemaVentas.exe
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\obj\Debug\SistemaVentas.pdb
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_Cristian\SistemaVentas\bin\Debug\CapaDatos.dll.config
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\obj\Debug\SistemaVentas.inicio.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\obj\Debug\SistemaVentas.login.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\obj\Debug\SistemaVentas.Properties.Resources.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\obj\Debug\SistemaVentas.exe
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\obj\Debug\SistemaVentas.pdb
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\bin\Debug\SistemaVentas.exe.config
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\bin\Debug\SistemaVentas.exe
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\bin\Debug\SistemaVentas.pdb
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\bin\Debug\CapaDatos.dll
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\bin\Debug\CapaEntidad.dll
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\bin\Debug\CapaNegocio.dll
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\bin\Debug\FontAwesome.Sharp.dll
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\bin\Debug\CapaDatos.pdb
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\bin\Debug\CapaDatos.dll.config
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\bin\Debug\CapaEntidad.pdb
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\bin\Debug\CapaNegocio.pdb
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentas_Daniel_Ortega\SistemaVentas\obj\Debug\CapaPresentacion.csproj.CopyComplete

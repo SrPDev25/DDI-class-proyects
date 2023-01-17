@@ -23,13 +23,13 @@ namespace SistemaVentas
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            List<Usuario> TEST = new CD_Usuario().Listar()
+            List<Usuario> TEST = new CD_Usuario().Listar();
            
             Usuario ousuario = new CN_Usuario().Listar().Where(u => u.Documento == txUser.Text && u.Clave == txContra.Text).FirstOrDefault();
 
             if (ousuario != null)
             {
-                inicio form = new inicio(/*ousuario*/);
+                inicio form = new inicio(ousuario);
                 form.Show();
                 this.Hide();//DESPUES DE INICIAR CIERRAS ESTE PANEL
                 form.FormClosing += frm_closing;//CUANDO CIERRES EL DE INICIO TE REABRE ESTE
