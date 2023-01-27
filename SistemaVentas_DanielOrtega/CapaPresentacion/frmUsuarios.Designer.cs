@@ -482,6 +482,7 @@ namespace CapaPresentacion
             this.btnlimpiarbuscador.Size = new System.Drawing.Size(19, 20);
             this.btnlimpiarbuscador.TabIndex = 11;
             this.btnlimpiarbuscador.UseVisualStyleBackColor = false;
+            this.btnlimpiarbuscador.Click += new System.EventHandler(this.btnlimpiarbuscador_Click);
             // 
             // btnbuscar
             // 
@@ -498,6 +499,7 @@ namespace CapaPresentacion
             this.btnbuscar.Size = new System.Drawing.Size(19, 20);
             this.btnbuscar.TabIndex = 11;
             this.btnbuscar.UseVisualStyleBackColor = false;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // txtbusqueda
             // 
