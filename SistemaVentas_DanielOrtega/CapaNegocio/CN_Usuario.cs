@@ -17,5 +17,71 @@ namespace CapaNegocio
         {
             return objcd_usuario.Listar();
         }
+
+        public int Registrar(Usuario obj, out string Mensaje)
+        {
+            Mensaje = String.Empty;
+
+            if (obj.Documento == "")
+            {
+                Mensaje += "Es necesario el documento del usuario\n";
+            }
+
+            if (obj.NombreCompleto == "")
+            {
+                Mensaje += "Es necesario el nombre completo del usuario\n";
+            }
+
+            if (obj.Clave == "")
+            {
+                Mensaje += "Es necesario la clave del usuario \n";
+            }
+
+            if (Mensaje != String.Empty)
+            {
+                return 0;
+            }
+            else
+            {
+                return objcd_usuario.Registrar(obj, out Mensaje);
+            }
+
+        }
+
+        public int Editar(Usuario obj, out string Mensaje)
+        {
+            Mensaje = String.Empty;
+
+            if (obj.Documento == "")
+            {
+                Mensaje += "Es necesario el documento del usuario\n";
+            }
+
+            if (obj.NombreCompleto == "")
+            {
+                Mensaje += "Es necesario el nombre completo del usuario\n";
+            }
+
+            if (obj.Clave == "")
+            {
+                Mensaje += "Es necesario la clave del usuario \n";
+            }
+
+            if (Mensaje != String.Empty)
+            {
+                return 0;
+            }
+            else
+            {
+                return objcd_usuario.Editar(obj, out Mensaje);
+            }
+
+        }
     }
+
+    
+        
+
+
+
 }
