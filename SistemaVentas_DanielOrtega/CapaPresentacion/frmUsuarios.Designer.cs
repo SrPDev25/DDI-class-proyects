@@ -29,6 +29,8 @@ namespace CapaPresentacion
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -60,13 +62,14 @@ namespace CapaPresentacion
             this.EstadoValor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.Label();
+            this.txtid = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.cbobusqueda = new System.Windows.Forms.ComboBox();
             this.btnlimpiarbuscador = new FontAwesome.Sharp.IconButton();
             this.btnbuscar = new FontAwesome.Sharp.IconButton();
             this.txtbusqueda = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.txtIndice = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdata)).BeginInit();
             this.SuspendLayout();
             // 
@@ -272,6 +275,7 @@ namespace CapaPresentacion
             this.btnlimpiar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnlimpiar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnlimpiar.UseVisualStyleBackColor = false;
+            this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
             // 
             // btneliminar
             // 
@@ -293,9 +297,20 @@ namespace CapaPresentacion
             this.btneliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btneliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btneliminar.UseVisualStyleBackColor = false;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // dgvdata
             // 
+            this.dgvdata.AllowUserToAddRows = false;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvdata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvdata.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.btnSeleccionar,
@@ -310,9 +325,14 @@ namespace CapaPresentacion
             this.Estado});
             this.dgvdata.Location = new System.Drawing.Point(185, 67);
             this.dgvdata.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvdata.MultiSelect = false;
             this.dgvdata.Name = "dgvdata";
+            this.dgvdata.ReadOnly = true;
             this.dgvdata.RowHeadersWidth = 51;
-            this.dgvdata.RowTemplate.Height = 24;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvdata.RowTemplate.Height = 28;
             this.dgvdata.Size = new System.Drawing.Size(655, 358);
             this.dgvdata.TabIndex = 7;
             this.dgvdata.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvdata_CellContentClick);
@@ -323,6 +343,7 @@ namespace CapaPresentacion
             this.btnSeleccionar.HeaderText = "";
             this.btnSeleccionar.MinimumWidth = 6;
             this.btnSeleccionar.Name = "btnSeleccionar";
+            this.btnSeleccionar.ReadOnly = true;
             this.btnSeleccionar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.btnSeleccionar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.btnSeleccionar.Width = 30;
@@ -332,6 +353,7 @@ namespace CapaPresentacion
             this.Id.HeaderText = "IdUsuario";
             this.Id.MinimumWidth = 6;
             this.Id.Name = "Id";
+            this.Id.ReadOnly = true;
             this.Id.Visible = false;
             this.Id.Width = 150;
             // 
@@ -340,6 +362,7 @@ namespace CapaPresentacion
             this.Documento.HeaderText = "Usuario";
             this.Documento.MinimumWidth = 6;
             this.Documento.Name = "Documento";
+            this.Documento.ReadOnly = true;
             this.Documento.Width = 150;
             // 
             // NombreCompleto
@@ -347,6 +370,7 @@ namespace CapaPresentacion
             this.NombreCompleto.HeaderText = "Nombre Completo";
             this.NombreCompleto.MinimumWidth = 6;
             this.NombreCompleto.Name = "NombreCompleto";
+            this.NombreCompleto.ReadOnly = true;
             this.NombreCompleto.Width = 180;
             // 
             // Correo
@@ -354,6 +378,7 @@ namespace CapaPresentacion
             this.Correo.HeaderText = "Correo";
             this.Correo.MinimumWidth = 6;
             this.Correo.Name = "Correo";
+            this.Correo.ReadOnly = true;
             this.Correo.Width = 150;
             // 
             // Clave
@@ -361,6 +386,7 @@ namespace CapaPresentacion
             this.Clave.HeaderText = "Clave";
             this.Clave.MinimumWidth = 6;
             this.Clave.Name = "Clave";
+            this.Clave.ReadOnly = true;
             this.Clave.Visible = false;
             this.Clave.Width = 125;
             // 
@@ -369,6 +395,7 @@ namespace CapaPresentacion
             this.idRol.HeaderText = "idRol";
             this.idRol.MinimumWidth = 6;
             this.idRol.Name = "idRol";
+            this.idRol.ReadOnly = true;
             this.idRol.Visible = false;
             this.idRol.Width = 125;
             // 
@@ -377,6 +404,7 @@ namespace CapaPresentacion
             this.Rol.HeaderText = "Rol";
             this.Rol.MinimumWidth = 6;
             this.Rol.Name = "Rol";
+            this.Rol.ReadOnly = true;
             this.Rol.Width = 125;
             // 
             // EstadoValor
@@ -384,6 +412,7 @@ namespace CapaPresentacion
             this.EstadoValor.HeaderText = "EstadoValor";
             this.EstadoValor.MinimumWidth = 6;
             this.EstadoValor.Name = "EstadoValor";
+            this.EstadoValor.ReadOnly = true;
             this.EstadoValor.Visible = false;
             this.EstadoValor.Width = 125;
             // 
@@ -392,6 +421,7 @@ namespace CapaPresentacion
             this.Estado.HeaderText = "Estado";
             this.Estado.MinimumWidth = 6;
             this.Estado.Name = "Estado";
+            this.Estado.ReadOnly = true;
             this.Estado.Width = 125;
             // 
             // label10
@@ -406,15 +436,16 @@ namespace CapaPresentacion
             this.label10.TabIndex = 0;
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // txtId
+            // txtid
             // 
-            this.txtId.AutoSize = true;
-            this.txtId.Location = new System.Drawing.Point(107, 41);
-            this.txtId.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(50, 13);
-            this.txtId.TabIndex = 8;
-            this.txtId.Text = "id control";
+            this.txtid.AutoSize = true;
+            this.txtid.Location = new System.Drawing.Point(107, 41);
+            this.txtid.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(18, 13);
+            this.txtid.TabIndex = 8;
+            this.txtid.Text = "ID";
+            this.txtid.Visible = false;
             // 
             // label11
             // 
@@ -490,16 +521,27 @@ namespace CapaPresentacion
             this.label12.TabIndex = 0;
             this.label12.Text = "Lista de Usuarios:";
             // 
+            // txtIndice
+            // 
+            this.txtIndice.AutoSize = true;
+            this.txtIndice.Location = new System.Drawing.Point(61, 41);
+            this.txtIndice.Name = "txtIndice";
+            this.txtIndice.Size = new System.Drawing.Size(36, 13);
+            this.txtIndice.TabIndex = 13;
+            this.txtIndice.Text = "Indice";
+            this.txtIndice.Visible = false;
+            // 
             // frmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(849, 424);
+            this.Controls.Add(this.txtIndice);
             this.Controls.Add(this.txtbusqueda);
             this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.btnlimpiarbuscador);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.txtid);
             this.Controls.Add(this.dgvdata);
             this.Controls.Add(this.btneliminar);
             this.Controls.Add(this.btnlimpiar);
@@ -557,7 +599,7 @@ namespace CapaPresentacion
         private FontAwesome.Sharp.IconButton btneliminar;
         private System.Windows.Forms.DataGridView dgvdata;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label txtId;
+        private System.Windows.Forms.Label txtid;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox cbobusqueda;
         private FontAwesome.Sharp.IconButton btnlimpiarbuscador;
@@ -574,5 +616,6 @@ namespace CapaPresentacion
         private System.Windows.Forms.DataGridViewTextBoxColumn EstadoValor;
         private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label txtIndice;
     }
 }

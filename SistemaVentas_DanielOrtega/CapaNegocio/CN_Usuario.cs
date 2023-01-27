@@ -48,7 +48,7 @@ namespace CapaNegocio
 
         }
 
-        public int Editar(Usuario obj, out string Mensaje)
+        public bool Editar(Usuario obj, out string Mensaje)
         {
             Mensaje = String.Empty;
 
@@ -69,13 +69,18 @@ namespace CapaNegocio
 
             if (Mensaje != String.Empty)
             {
-                return 0;
+                return false;
             }
             else
             {
                 return objcd_usuario.Editar(obj, out Mensaje);
             }
 
+        }
+
+        public bool Eliminar(Usuario obj, out string Mensaje)
+        {
+            return objcd_usuario.Eliminar(obj, out Mensaje);
         }
     }
 

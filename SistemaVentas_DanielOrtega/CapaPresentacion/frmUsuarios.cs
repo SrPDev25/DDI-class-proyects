@@ -24,14 +24,10 @@ namespace CapaPresentacion
 
         private void frmUsuarios_Load(object sender, EventArgs e)
         {
-            //Carga el comboBox estado
-                //Items
             cboestado.Items.Add(new OpcionCombo() { Valor = 1, Texto = "ACTIVO" });
             cboestado.Items.Add(new OpcionCombo() { Valor = 0, Texto = "NO ACTIVO" });
-                //Texto
             cboestado.DisplayMember = "Texto";
             cboestado.ValueMember = "Valor";
-                //Combo seleccionado por defecto
             cboestado.SelectedIndex = 0;
 
             List<Rol> listaRol = new CN_Rol().Listar();
@@ -72,7 +68,7 @@ namespace CapaPresentacion
 
             Usuario objusuario = new Usuario()
             {
-                IdUsuario = Convert.ToInt32(txtId.Text),
+                IdUsuario = Convert.ToInt32(txtid.Text),
                 Documento = txtdocumento.Text,
                 NombreCompleto = txtnombrecompleto.Text,
                 Correo = txtcorreo.Text,
@@ -80,12 +76,14 @@ namespace CapaPresentacion
                 oRol = new Rol() { IdRol = Convert.ToInt32(((OpcionCombo)cborol.SelectedItem).Valor) },
                 Estado = Convert.ToInt32(((OpcionCombo)cboestado.SelectedItem).Valor) == 1 ? true : false
             };
+            if (objusuario.IdUsuario == 0)
+            {
+                int ideusuariogenerado = new CN_Usuario().Registrar(objusuario, out mensaje);
 
-            int ideusuariogenerado = new CN_Usuario().Registrar(objusuario, out mensaje);
+                if (ideusuariogenerado != 0)
+                {
 
-            if (ideusuariogenerado != 0) { 
-
-            dgvdata.Rows.Add(new object[]{"", txtId.Text, txtdocumento.Text, txtnombrecompleto.Text, txtcorreo.Text, txtclave.Text,
+                    dgvdata.Rows.Add(new object[]{"", txtid.Text, txtdocumento.Text, txtnombrecompleto.Text, txtcorreo.Text, txtclave.Text,
                 ((OpcionCombo)cborol.SelectedItem).Valor.ToString(),
                  ((OpcionCombo)cborol.SelectedItem).Texto.ToString(),
                   ((OpcionCombo)cboestado.SelectedItem).Valor.ToString(),
@@ -93,17 +91,45 @@ namespace CapaPresentacion
             });
 
 
-            Limpiar();
+                    Limpiar();
+                }
+                else
+                {
+                    MessageBox.Show(mensaje);
+                }
             }
             else
             {
-                MessageBox.Show(mensaje);
+                bool resultado = new CN_Usuario().Editar(objusuario, out mensaje);
+
+                if (resultado)
+                {
+                    DataGridViewRow row = dgvdata.Rows[Convert.ToInt32(txtIndice.Text)];
+                    row.Cells["id"].Value=txtid.Text;
+                    row.Cells["Documento"].Value = txtdocumento.Text;
+                    row.Cells["NombreCompleto"].Value = txtnombrecompleto.Text;
+                    row.Cells["Correo"].Value=txtcorreo.Text;
+                    row.Cells["Clave"].Value = txtclave.Text;
+                    row.Cells["IdRol"].Value = ((OpcionCombo)cborol.SelectedItem).Valor.ToString();
+                    row.Cells["Rol"].Value = ((OpcionCombo)cborol.SelectedItem).Texto.ToString();
+                    row.Cells["EstadoValor"].Value=((OpcionCombo)cboestado.SelectedItem).Valor.ToString();
+                    row.Cells["Estado"].Value = ((OpcionCombo)cboestado.SelectedItem).Texto.ToString();
+
+                    Limpiar();
+
+                }
+                else
+                {
+                    MessageBox.Show(mensaje);
+                }
             }
+
+
         }
 
         private void Limpiar()
         {
-            txtId.Text = "0";
+            txtid.Text = "0";
             txtdocumento.Text = "";
             txtnombrecompleto.Text = "";
             txtcorreo.Text = "";
@@ -142,7 +168,7 @@ namespace CapaPresentacion
 
                 if (indice >= 0)
                 {
-                    txtId.Text = dgvdata.Rows[indice].Cells["id"].Value.ToString();
+                    txtid.Text = dgvdata.Rows[indice].Cells["id"].Value.ToString();
                     txtdocumento.Text = dgvdata.Rows[indice].Cells["Documento"].Value.ToString();
                     txtnombrecompleto.Text = dgvdata.Rows[indice].Cells["NombreCompleto"].Value.ToString();
                     txtcorreo.Text = dgvdata.Rows[indice].Cells["Correo"].Value.ToString();
@@ -170,6 +196,16 @@ namespace CapaPresentacion
                     }
                 }
             }
+        }
+
+        private void btneliminar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnlimpiar_Click(object sender, EventArgs e)
+        {
+            Limpiar();
         }
     }
 }
