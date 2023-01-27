@@ -17,3 +17,13 @@ D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaDatos\obj\Debug\CapaDatos.cspr
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaDatos\obj\Debug\CapaDatos.dll
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaDatos\obj\Debug\CapaDatos.pdb
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaDatos\obj\Debug\CapaDatos.pdb

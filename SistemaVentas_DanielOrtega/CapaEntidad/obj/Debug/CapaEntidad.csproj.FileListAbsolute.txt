@@ -10,3 +10,9 @@ D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaEntidad\obj\Debug\CapaEntidad.
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaEntidad\obj\Debug\CapaEntidad.dll
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaEntidad\obj\Debug\CapaEntidad.pdb

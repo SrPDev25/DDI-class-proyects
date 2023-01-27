@@ -48,6 +48,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BDSISTEMAVENTASDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BDSISTEMAVENTASDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDSISTEMAVENTASDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="CD_Permiso.cs" />
     <Compile Include="CD_Rol.cs" />
     <Compile Include="CD_Usuario.cs" />
@@ -77,6 +82,17 @@
     </None>
     <None Include="BDSISTEMAVENTASDataSet.xss">
       <DependentUpon>BDSISTEMAVENTASDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BDSISTEMAVENTASDataSet1.xsc">
+      <DependentUpon>BDSISTEMAVENTASDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BDSISTEMAVENTASDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDSISTEMAVENTASDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDSISTEMAVENTASDataSet1.xss">
+      <DependentUpon>BDSISTEMAVENTASDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

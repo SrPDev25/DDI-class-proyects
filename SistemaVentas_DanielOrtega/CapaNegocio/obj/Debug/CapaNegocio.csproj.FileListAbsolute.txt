@@ -21,3 +21,15 @@ D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaNegocio\obj\Debug\CapaNegocio.
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaNegocio\obj\Debug\CapaNegocio.dll
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaNegocio\obj\Debug\CapaNegocio.pdb
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaNegocio\bin\Debug\CapaDatos.dll.config
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaDatos.dll.config
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.pdb

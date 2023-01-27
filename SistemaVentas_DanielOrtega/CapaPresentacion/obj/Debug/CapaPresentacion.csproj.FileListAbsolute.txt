@@ -58,3 +58,34 @@ D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPre
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmCategoria.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmClientes.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmCompras.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmInformes.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmProducto.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedores.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarios.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

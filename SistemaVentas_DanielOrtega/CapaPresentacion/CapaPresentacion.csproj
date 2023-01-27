@@ -53,6 +53,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BDSISTEMAVENTASDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDSISTEMAVENTASDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frmCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,6 +179,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="BDSISTEMAVENTASDataSet.xsc">
+      <DependentUpon>BDSISTEMAVENTASDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BDSISTEMAVENTASDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDSISTEMAVENTASDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDSISTEMAVENTASDataSet.xss">
+      <DependentUpon>BDSISTEMAVENTASDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
