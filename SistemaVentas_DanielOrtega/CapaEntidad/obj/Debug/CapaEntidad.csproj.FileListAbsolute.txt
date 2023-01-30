@@ -16,3 +16,7 @@ C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaEntidad\obj\
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaEntidad\obj\Debug\CapaEntidad.pdb
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaEntidad\obj\Debug\CapaEntidad.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaEntidad\obj\Debug\CapaEntidad.pdb
