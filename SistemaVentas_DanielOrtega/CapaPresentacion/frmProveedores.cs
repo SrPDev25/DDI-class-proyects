@@ -50,6 +50,7 @@ namespace CapaPresentacion
                     item.Estado == true ? 1 : 0,
                     item.Estado == true ? "Activo" : "No activo"
                 });
+                
             }
         }
 
@@ -93,9 +94,9 @@ namespace CapaPresentacion
                 if (resultado)
                 {
                     DataGridViewRow row = dgvdata.Rows[Convert.ToInt32(txtIndice.Text)];
-                    row.Cells["ID"].Value = txtId.Text;
+                    row.Cells["IdProveedor"].Value = txtId.Text;
                     row.Cells["NroDocumento"].Value = txtNroDocumento.Text;
-                    row.Cells["Razon Social"].Value = txtRazonSocial.Text;
+                    row.Cells["razonSocial"].Value = txtRazonSocial.Text;
                     row.Cells["Correo"].Value = txtCorreo.Text;
                     row.Cells["Telefono"].Value = txtTelefono.Text;
                     row.Cells["EstadoValor"].Value = ((OpcionCombo)cmbEstado.SelectedItem).Valor.ToString();
@@ -120,8 +121,8 @@ namespace CapaPresentacion
             {
                 e.Paint(e.CellBounds, DataGridViewPaintParts.All);
 
-                var w = Properties.Resources.check.Width;
-                var h = Properties.Resources.check.Height;
+                var w = 25;
+                var h = 25;
                 var x = e.CellBounds.Left + (e.CellBounds.Width - w) / 2;
                 var y = e.CellBounds.Top + (e.CellBounds.Height - h) / 2;
                 e.Graphics.DrawImage(Properties.Resources.check, new Rectangle(x, y, w, h));
@@ -148,6 +149,8 @@ namespace CapaPresentacion
 
                 if (indice >= 0)
                 {
+                    string si = dgvdata.Rows[indice].Cells["IdProveedor"].Value.ToString();
+                    txtIndice.Text=e.RowIndex.ToString();
                     txtId.Text = dgvdata.Rows[indice].Cells["IdProveedor"].Value.ToString();
                     txtNroDocumento.Text = dgvdata.Rows[indice].Cells["nroDocumento"].Value.ToString();
                     txtRazonSocial.Text = dgvdata.Rows[indice].Cells["razonSocial"].Value.ToString();
@@ -182,7 +185,7 @@ namespace CapaPresentacion
                     bool respuesta = new CN_Proveedor().Eliminar(objProveedor, out mensaje);
 
                     if (respuesta)
-                    {
+                    { 
                         dgvdata.Rows.RemoveAt(Convert.ToInt32(txtIndice.Text));
                         Limpiar();
                     }

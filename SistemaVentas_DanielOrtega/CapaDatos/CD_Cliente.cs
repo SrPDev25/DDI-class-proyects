@@ -132,7 +132,7 @@ namespace CapaDatos
                 {
                     SqlCommand cmd = new SqlCommand("DELETE FROM CLIENTE WHERE IdCliente = @id", oconexion);
                     cmd.Parameters.AddWithValue("@id", obj.IdCliente);
-                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.CommandType = CommandType.Text;
                     oconexion.Open();
                     respuesta = cmd.ExecuteNonQuery() > 0 ? true : false;
                 }

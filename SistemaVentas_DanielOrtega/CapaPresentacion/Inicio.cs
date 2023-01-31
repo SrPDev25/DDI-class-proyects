@@ -32,11 +32,11 @@ namespace CapaPresentacion
             lblusuario.Text = usuarioActual.NombreCompleto;
             List<Permiso> ListaPermisos = new CN_Permiso().Listar(usuarioActual.IdUsuario);
 
-            foreach (IconMenuItem iconmenu in Menu.Items)
+            /*foreach (IconMenuItem iconmenu in Menu.Items)
             {
                 bool encontrado = ListaPermisos.Any(m => m.NombreMenu == iconmenu.Name);
                 if (encontrado == true) { iconmenu.Visible = false; }
-            }
+            }*/
         }
 
         private void AbrirFormulario(IconMenuItem menu, Form formulario)
