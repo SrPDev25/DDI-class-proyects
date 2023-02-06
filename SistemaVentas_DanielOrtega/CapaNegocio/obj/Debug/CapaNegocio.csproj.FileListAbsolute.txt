@@ -33,3 +33,15 @@ C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\obj\
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.pdb
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaNegocio.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaNegocio.pdb
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaDatos.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaEntidad.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaDatos.pdb
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaDatos.dll.config
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\bin\Debug\CapaEntidad.pdb
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaNegocio\obj\Debug\CapaNegocio.pdb

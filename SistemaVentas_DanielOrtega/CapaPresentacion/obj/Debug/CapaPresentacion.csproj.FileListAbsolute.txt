@@ -89,3 +89,23 @@ C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmCategoria.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmClientes.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmCompras.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmInformes.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmProducto.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedores.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarios.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdCliente.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

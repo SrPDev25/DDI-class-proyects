@@ -88,7 +88,7 @@ namespace CapaPresentacion
             if (e.KeyData == Keys.Enter)
             {
 
-                Producto oProducto = new CN__Producto().Listar().Where(p => p.Codigo == txtcodproducto.Text && p.Estado == true).FirstOrDefault();
+                Producto oProducto = new CN_Producto().Listar().Where(p => p.Codigo == txtcodproducto.Text && p.Estado == true).FirstOrDefault();
 
                 if (oProducto != null)
                 {
@@ -201,12 +201,12 @@ namespace CapaPresentacion
             {
                 e.Paint(e.CellBounds, DataGridViewPaintParts.All);
 
-                var w = Properties.Resources.delete25.Width;
-                var h = Properties.Resources.delete25.Height;
+                var w = 25;
+                var h = 25;
                 var x = e.CellBounds.Left + (e.CellBounds.Width - w) / 2;
                 var y = e.CellBounds.Top + (e.CellBounds.Height - h) / 2;
 
-                e.Graphics.DrawImage(Properties.Resources.delete25, new Rectangle(x, y, w, h));
+                e.Graphics.DrawImage(Properties.Resources.check, new Rectangle(x, y, w, h));
                 e.Handled = true;
             }
         }
