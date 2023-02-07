@@ -109,3 +109,4 @@ F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacio
 F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
 F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdCliente.resources

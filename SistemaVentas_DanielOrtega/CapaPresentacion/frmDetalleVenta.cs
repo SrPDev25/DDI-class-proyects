@@ -1,8 +1,5 @@
 ﻿using CapaEntidad;
 using CapaNegocio;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
-using iTextSharp.tool.xml;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -47,7 +44,7 @@ namespace CapaPresentacion
                 dgvdata.Rows.Clear();
                 foreach (Detalle_Venta dv in oVenta.oDetalle_Venta)
                 {
-                    dgvdata.Rows.Add(new object[] { dv.oProducto.Nombre, dv.PrecioVenta, dv.Cantidad, dv.SubTotal });
+                    dgvdata.Rows.Add(new object[] { dv.oProducto.Nombre, dv.PrecioVenta, dv.cantidad, dv.SubTotal });
                 }
 
                 txtmontototal.Text = oVenta.MontoTotal.ToString("0.00");
@@ -75,7 +72,8 @@ namespace CapaPresentacion
 
         private void btndescargar_Click(object sender, EventArgs e)
         {
-            if (txttipodocumento.Text == "")
+           
+            /*if (txttipodocumento.Text == "")
             {
                 MessageBox.Show("No se encontraron resultados", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
@@ -147,7 +145,7 @@ namespace CapaPresentacion
                     stream.Close();
                     MessageBox.Show("Documento Generado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-            }
+            }*/
         }
     }
 }

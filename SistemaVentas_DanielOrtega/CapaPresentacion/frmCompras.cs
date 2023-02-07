@@ -82,7 +82,7 @@ namespace CapaPresentacion
         {
             if (e.KeyData == Keys.Enter) {
 
-                Producto oProducto = new CN__Producto().Listar().Where(p => p.Codigo == txtcodproducto.Text && p.Estado == true).FirstOrDefault();
+                Producto oProducto = new CN_Producto().Listar().Where(p => p.Codigo == txtcodproducto.Text && p.Estado == true).FirstOrDefault();
 
                 if (oProducto != null)
                 {
