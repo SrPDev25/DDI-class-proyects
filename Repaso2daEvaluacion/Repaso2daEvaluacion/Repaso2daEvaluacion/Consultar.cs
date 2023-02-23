@@ -263,5 +263,10 @@ namespace Repaso2daEvaluacion
         {
 
         }
+
+        private void btnlimpiarbuscador_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

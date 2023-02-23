@@ -34,6 +34,11 @@ namespace examen2eva_daniel_ortega
             AbrirFormulario(menuconsultar, new Consulta());
         }
 
+        private void menufichar_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menuconsultar, new Registro());
+        }
+
         private void AbrirFormulario(IconMenuItem menu, Form formulario)
         {
             if (MenuActivo != null)
@@ -59,5 +64,7 @@ namespace examen2eva_daniel_ortega
 
             formulario.Show();
         }
+
+        
     }
 }

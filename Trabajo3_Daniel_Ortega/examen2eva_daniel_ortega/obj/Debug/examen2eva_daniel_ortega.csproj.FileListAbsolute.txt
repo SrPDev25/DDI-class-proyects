@@ -12,3 +12,4 @@ C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_or
 C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.pdb
 C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.Consulta.resources
 C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.Main.resources
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.Registro.resources

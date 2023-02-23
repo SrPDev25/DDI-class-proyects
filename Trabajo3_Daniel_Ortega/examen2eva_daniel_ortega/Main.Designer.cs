@@ -63,6 +63,7 @@
             this.menufichar.Size = new System.Drawing.Size(122, 69);
             this.menufichar.Text = "Fichar";
             this.menufichar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menufichar.Click += new System.EventHandler(this.menufichar_Click);
             // 
             // menuconsultar
             // 
