@@ -59,6 +59,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1058, 574);
             this.label1.TabIndex = 0;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -70,6 +71,7 @@
             this.label2.Size = new System.Drawing.Size(192, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Registrar Acceso";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // groupBox1
             // 
@@ -85,6 +87,7 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Entrada/Salida";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // rbSalida
             // 
@@ -115,6 +118,7 @@
             this.txtFecha.ReadOnly = true;
             this.txtFecha.Size = new System.Drawing.Size(114, 20);
             this.txtFecha.TabIndex = 2;
+            this.txtFecha.TextChanged += new System.EventHandler(this.txtFecha_TextChanged);
             // 
             // label4
             // 
@@ -148,6 +152,7 @@
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Identificación";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // btnBuscarEmpleado
             // 
@@ -219,6 +224,7 @@
             this.label7.Size = new System.Drawing.Size(66, 24);
             this.label7.TabIndex = 5;
             this.label7.Text = "label7";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -227,6 +233,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(87, 87);
             this.label8.TabIndex = 6;
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // timer1
             // 

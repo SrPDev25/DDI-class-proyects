@@ -74,7 +74,7 @@ namespace examen2eva_daniel_ortega
                     query.AppendLine("INNER join alumno a on r.idalumno = a.idalumno");//Conexiones 
                     query.AppendLine("INNER join curso c on c.idCurso = a.idCurso");//
                     query.AppendLine("where convert(varchar, regfechahora, 112) between Convert(datetime, @fechainicio, 112) and Convert(datetime, @fechafin, 112)");
-                    query.AppendLine(" and a.alunum= "+id+"");
+                    query.AppendLine(" and a.alunum= "+id+" and a.aluestado=1");
                     query.AppendLine("order by c.idcurso,fecha, a.idalumno, hora");
 
                     //convertir fechas seleccionadas a formato compatible consulta sql
@@ -134,15 +134,13 @@ namespace examen2eva_daniel_ortega
                     query.AppendLine("CONVERT(NVARCHAR, r.regfechahora, 103) as fecha, ");
                     query.AppendLine("CONVERT(NVARCHAR, r.regfechahora, 8) as hora, ");
                     query.AppendLine("r.regtipomov AS tipoRegistro from registro r");
-                    query.AppendLine("INNER join alumno a on r.idalumno = a.idalumno");//Conexiones
-                    query.AppendLine("INNER join curso c on c.idCurso = a.idCurso");//
-                    //Usar el codigo 112 para comparar ya que tiene formato yyyymmdd
-                    //busca los fichajes que se encuentren entre la fecha inicial y la final, los @ se solucionan luego
-                    query.AppendLine("where convert(varchar, regfechahora, 112) between Convert(datetime, @fechainicio, 112) and Convert(datetime, @fechafin, 112)");
+                    query.AppendLine("INNER join alumno a on r.idalumno = a.idalumno");
+                    query.AppendLine("INNER join curso c on c.idCurso = a.idCurso");
+                   
+                    query.AppendLine("where convert(varchar, regfechahora, 112) between Convert(datetime, @fechainicio, 112) and Convert(datetime, @fechafin, 112)  and a.aluestado=1");
                     query.AppendLine("order by c.idcurso,fecha, a.idalumno, hora");
 
-                    //convertir fechas seleccionadas a formato compatible consulta sql
-                    //Formato 112
+                    
                     string finicio = dateInicio.Value.ToString("yyyyMMdd");
                     string ffin = dateFin.Value.ToString("yyyyMMdd");
 
