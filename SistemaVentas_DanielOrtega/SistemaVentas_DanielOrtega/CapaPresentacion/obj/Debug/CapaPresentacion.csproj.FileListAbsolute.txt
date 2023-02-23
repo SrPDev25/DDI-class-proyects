@@ -1,0 +1,131 @@
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmCategoria.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmClientes.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmCompras.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmInformes.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmProducto.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedores.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarios.resources
+C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaDatos.dll
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaEntidad.dll
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaNegocio.dll
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaDatos.pdb
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmCategoria.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmClientes.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmCompras.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmInformes.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmProducto.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedores.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarios.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+D:\Curso DAM2 22-23\DDI_GIT\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmCategoria.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmClientes.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmCompras.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmInformes.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmProducto.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedores.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarios.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmCategoria.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmClientes.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmCompras.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmInformes.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmProducto.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedores.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarios.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdCliente.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdCliente.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdProducto.resources
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\BouncyCastle.Crypto.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaDatos.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaEntidad.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaNegocio.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\itextsharp.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\itextsharp.xmlworker.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\System.IO.Packaging.dll
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaDatos.pdb
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\itextsharp.xml
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\bin\Debug\System.IO.Packaging.xml
+F:\Curso DAM 20-23\DDI-class-proyects\SistemaVentas_DanielOrtega\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
