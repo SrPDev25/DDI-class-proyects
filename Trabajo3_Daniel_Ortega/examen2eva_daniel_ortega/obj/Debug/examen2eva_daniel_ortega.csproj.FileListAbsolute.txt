@@ -1,0 +1,13 @@
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\bin\Debug\examen2eva_daniel_ortega.exe.config
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\bin\Debug\examen2eva_daniel_ortega.exe
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\bin\Debug\examen2eva_daniel_ortega.pdb
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.csproj.AssemblyReference.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.csproj.SuggestedBindingRedirects.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.Form1.resources
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.Properties.Resources.resources
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.csproj.GenerateResource.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.csproj.CoreCompileInputs.cache
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.csproj.CopyComplete
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.exe
+C:\Users\DAM\Documents\Proyectos\DDI\Trabajo3_Daniel_Ortega\examen2eva_daniel_ortega\obj\Debug\examen2eva_daniel_ortega.pdb

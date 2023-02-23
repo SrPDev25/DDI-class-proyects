@@ -33,6 +33,7 @@ namespace Repaso2daEvaluacion
         {
             //Control checkbutton seleccionado
             string mensaje = "Hola";
+            //Si no marco entrada o salida salta error
             if(!(rbEntrada.Checked || rbSalida.Checked))
             {
                 MessageBox.Show("Selecciona un valor, por favor", "Aviso", MessageBoxButtons.OK);
@@ -115,9 +116,11 @@ namespace Repaso2daEvaluacion
                 {
                     conexion.Open();
                     StringBuilder query = new StringBuilder();
+                    //Un insert de toda la vida
                     query.AppendLine("insert into dbo.fichaje(idEmpleado, fictipomov)");
                     query.AppendLine("values ((select idEmpleado from dbo.Personal where empnum = @empleado), @acceso)");
 
+                    //Se indican los @
                     SqlCommand cmd = new SqlCommand(query.ToString(), conexion);
                     cmd.Parameters.AddWithValue("@empleado", txtNumEmpleado.Text);
                     cmd.Parameters.AddWithValue("@acceso", rbEntrada.Checked == true ? "1" : "0");
