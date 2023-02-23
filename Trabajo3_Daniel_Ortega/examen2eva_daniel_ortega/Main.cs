@@ -34,10 +34,7 @@ namespace examen2eva_daniel_ortega
             AbrirFormulario(menuconsultar, new Consulta());
         }
 
-        private void menufichar_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(menuconsultar, new Registro());
-        }
+
 
         private void AbrirFormulario(IconMenuItem menu, Form formulario)
         {
@@ -45,26 +42,30 @@ namespace examen2eva_daniel_ortega
             {
                 MenuActivo.BackColor = Color.White;
             }
-
             menu.BackColor = Color.Silver;
             MenuActivo = menu;
-
             if (FormularioActivo != null)
             {
                 FormularioActivo.Close();
+
+                FormularioActivo = formulario;
+                formulario.Dock = DockStyle.Fill;
+                formulario.BackColor = Color.Lime;
+                formulario.TopLevel = false;
+                formulario.FormBorderStyle = FormBorderStyle.None;
+
+
+                contenedor.Controls.Add(formulario);
+
+                formulario.Show();
             }
 
-            FormularioActivo = formulario;
-            formulario.TopLevel = false;
-            formulario.FormBorderStyle = FormBorderStyle.None;
-            formulario.Dock = DockStyle.Fill;
-            formulario.BackColor = Color.Lime;
 
-            contenedor.Controls.Add(formulario);
-
-            formulario.Show();
         }
 
-        
+        private void controlMenu_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menuconsultar, new Registro());
+        }
     }
 }

@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.Menu = new System.Windows.Forms.MenuStrip();
-            this.menufichar = new FontAwesome.Sharp.IconMenuItem();
+            this.controlMenu = new FontAwesome.Sharp.IconMenuItem();
             this.menuconsultar = new FontAwesome.Sharp.IconMenuItem();
             this.menuTitulo = new System.Windows.Forms.MenuStrip();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
@@ -42,7 +42,7 @@
             // Menu
             // 
             this.Menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menufichar,
+            this.controlMenu,
             this.menuconsultar});
             this.Menu.Location = new System.Drawing.Point(0, 73);
             this.Menu.Name = "Menu";
@@ -51,19 +51,19 @@
             this.Menu.TabIndex = 8;
             this.Menu.Text = "Menu";
             // 
-            // menufichar
+            // controlMenu
             // 
-            this.menufichar.AutoSize = false;
-            this.menufichar.IconChar = FontAwesome.Sharp.IconChar.SchoolCircleCheck;
-            this.menufichar.IconColor = System.Drawing.Color.Black;
-            this.menufichar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menufichar.IconSize = 50;
-            this.menufichar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menufichar.Name = "menufichar";
-            this.menufichar.Size = new System.Drawing.Size(122, 69);
-            this.menufichar.Text = "Fichar";
-            this.menufichar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.menufichar.Click += new System.EventHandler(this.menufichar_Click);
+            this.controlMenu.AutoSize = false;
+            this.controlMenu.IconChar = FontAwesome.Sharp.IconChar.SchoolCircleCheck;
+            this.controlMenu.IconColor = System.Drawing.Color.Black;
+            this.controlMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.controlMenu.IconSize = 50;
+            this.controlMenu.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.controlMenu.Name = "controlMenu";
+            this.controlMenu.Size = new System.Drawing.Size(122, 69);
+            this.controlMenu.Text = "Control";
+            this.controlMenu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.controlMenu.Click += new System.EventHandler(this.controlMenu_Click);
             // 
             // menuconsultar
             // 
@@ -75,7 +75,7 @@
             this.menuconsultar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.menuconsultar.Name = "menuconsultar";
             this.menuconsultar.Size = new System.Drawing.Size(122, 69);
-            this.menuconsultar.Text = "Consultar";
+            this.menuconsultar.Text = "Consulta";
             this.menuconsultar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.menuconsultar.Click += new System.EventHandler(this.menuconsultar_Click);
             // 
@@ -148,7 +148,7 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip Menu;
-        private FontAwesome.Sharp.IconMenuItem menufichar;
+        private FontAwesome.Sharp.IconMenuItem controlMenu;
         private FontAwesome.Sharp.IconMenuItem menuconsultar;
         private System.Windows.Forms.MenuStrip menuTitulo;
         private FontAwesome.Sharp.IconButton btnSalir;
