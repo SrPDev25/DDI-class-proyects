@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FontAwesome.Sharp;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,12 @@ using System.Windows.Forms;
 
 namespace examen2eva_daniel_ortega
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        private static IconMenuItem MenuActivo = null;
+        private static Form FormularioActivo = null;
+
+        public Main()
         {
             InitializeComponent();
         }
@@ -23,6 +27,37 @@ namespace examen2eva_daniel_ortega
             {
                 this.Close();
             }
+        }
+
+        private void menuconsultar_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menuconsultar, new Consulta());
+        }
+
+        private void AbrirFormulario(IconMenuItem menu, Form formulario)
+        {
+            if (MenuActivo != null)
+            {
+                MenuActivo.BackColor = Color.White;
+            }
+
+            menu.BackColor = Color.Silver;
+            MenuActivo = menu;
+
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+            FormularioActivo = formulario;
+            formulario.TopLevel = false;
+            formulario.FormBorderStyle = FormBorderStyle.None;
+            formulario.Dock = DockStyle.Fill;
+            formulario.BackColor = Color.Lime;
+
+            contenedor.Controls.Add(formulario);
+
+            formulario.Show();
         }
     }
 }

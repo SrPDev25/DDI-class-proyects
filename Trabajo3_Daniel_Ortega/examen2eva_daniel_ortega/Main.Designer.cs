@@ -1,6 +1,6 @@
 ﻿namespace examen2eva_daniel_ortega
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.Menu = new System.Windows.Forms.MenuStrip();
             this.menufichar = new FontAwesome.Sharp.IconMenuItem();
             this.menuconsultar = new FontAwesome.Sharp.IconMenuItem();
@@ -47,7 +47,7 @@
             this.Menu.Location = new System.Drawing.Point(0, 73);
             this.Menu.Name = "Menu";
             this.Menu.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Menu.Size = new System.Drawing.Size(800, 73);
+            this.Menu.Size = new System.Drawing.Size(746, 73);
             this.Menu.TabIndex = 8;
             this.Menu.Text = "Menu";
             // 
@@ -76,6 +76,7 @@
             this.menuconsultar.Size = new System.Drawing.Size(122, 69);
             this.menuconsultar.Text = "Consultar";
             this.menuconsultar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menuconsultar.Click += new System.EventHandler(this.menuconsultar_Click);
             // 
             // menuTitulo
             // 
@@ -83,7 +84,7 @@
             this.menuTitulo.BackColor = System.Drawing.Color.Lime;
             this.menuTitulo.Location = new System.Drawing.Point(0, 0);
             this.menuTitulo.Name = "menuTitulo";
-            this.menuTitulo.Size = new System.Drawing.Size(800, 73);
+            this.menuTitulo.Size = new System.Drawing.Size(746, 73);
             this.menuTitulo.TabIndex = 7;
             this.menuTitulo.Text = "menuStrip2";
             // 
@@ -119,14 +120,14 @@
             this.contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contenedor.Location = new System.Drawing.Point(0, 146);
             this.contenedor.Name = "contenedor";
-            this.contenedor.Size = new System.Drawing.Size(800, 304);
+            this.contenedor.Size = new System.Drawing.Size(746, 448);
             this.contenedor.TabIndex = 11;
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(746, 594);
             this.ControlBox = false;
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.label1);
@@ -134,7 +135,7 @@
             this.Controls.Add(this.Menu);
             this.Controls.Add(this.menuTitulo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "Asistencia";
             this.Menu.ResumeLayout(false);
             this.Menu.PerformLayout();
